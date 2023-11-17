@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"keypad_driver.h": "c",
+			"stm32f1xx_hal.h": "c"
+		}
+	}
+}
