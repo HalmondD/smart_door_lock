@@ -1,10 +1,3 @@
-/*
- * keypad_driver.h
- *
- *  Created on: Oct 17, 2023
- *      Author: duong
- */
-
 #ifndef INC_KEYPAD_DRIVER_H_
 #define INC_KEYPAD_DRIVER_H_
 

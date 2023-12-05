@@ -1,3 +1,0 @@
-../Core/Src/keypad_driver.c:13:9:keypad_4x4_return_gia_tri_phim_nhan	40	static
-../Core/Src/keypad_driver.c:42:13:check_trang_thai_phim	32	static
-../Core/Src/keypad_driver.c:65:13:doc_gia_tri_phim	32	static

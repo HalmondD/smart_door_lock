@@ -1,0 +1,12 @@
+\contentsline {chapter}{\numberline {2}Power supply}{2}{}%
+\contentsline {section}{\numberline {2.1}Power requirement:}{3}{}%
+\contentsline {section}{\numberline {2.2}Power source:}{3}{}%
+\contentsline {section}{\numberline {2.3}Power supply method, definition and topology:}{3}{}%
+\contentsline {section}{\numberline {2.4}Component selection and sizing:}{3}{}%
+\contentsline {subsection}{\numberline {2.4.1}Requirements specification:}{3}{}%
+\contentsline {subsection}{\numberline {2.4.2}Maximum switching current:}{3}{}%
+\contentsline {subsection}{\numberline {2.4.3}Inductor selection:}{4}{}%
+\contentsline {subsection}{\numberline {2.4.4}Diode selection:}{5}{}%
+\contentsline {subsection}{\numberline {2.4.5}Input/Output capacitor selection:}{5}{}%
+\contentsline {subsection}{\numberline {2.4.6}Feedback network:}{5}{}%
+\contentsline {section}{\numberline {2.5}Buck converter PCB design rule:}{6}{}%

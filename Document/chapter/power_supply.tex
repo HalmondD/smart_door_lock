@@ -1,0 +1,110 @@
+\section{Power requirement:}
+\section{Power source:}
+\section{Power supply method, definition and topology:}
+\section{Component selection and sizing:}
+\subsection{Requirements specification:}
+As a bare minimum, we require these parameters to be defined, then we can choose a buck converter IC!
+
+\begin{enumerate}
+	\item
+	\textbf{Input voltage range:}
+	\[ 12V \leq V_{in} \leq 16.8V \]
+	
+	\item
+	\textbf{Nominal output voltage:}
+	\[ V_{Out, nom} = 3.3V \]
+	
+	\item
+	\textbf{Maximum output (load) current:}
+	\[ I_{Out, max} = 500mA \]
+\end{enumerate}
+
+As a rule of thumb, when choosing buck converter ic, after fill out all of the above requirement in the search field, make sure to choose the \textbf{switching frequency} above $500kHz$, as this will explain bellow.
+
+\subsection{Maximum switching current:}
+Switch (typically in IC), diode (can be in IC), and inductor need to sustain currents larger than the load current!
+
+\begin{enumerate}
+	\item
+	\textbf{Calculate duty cycle (efficiency around 80\% to 90\%):}
+	\[ D \approx \frac{V_{Out}}{V_{In, max} \cdot H} = 0.25 \]
+	
+	\item 
+	\textbf{Calculate inductor ripple current (using 'average' L value from datasheet):}
+	\[ \Delta I_L = \frac{(V_{In, max} - V_{Out}) \cdot D}{f_{sw} \cdot L_{ava}} = 325mA \]
+	
+	\item 
+	\textbf{Check if IC can deliver required max output current:}
+	\[ I_{IC, max} = I_{LIM, min} - \frac{\Delta I_L}{2} = 1.84A \]
+	
+	\item 
+	\textbf{Calculate peak switch/diode/inductor current:}
+	\[ I_{SW, max} = I_{Out, max} + \frac{\Delta I_L}{2} = 660mA \]
+\end{enumerate}
+
+\subsection{Inductor selection:}
+\[ L_{min} = \frac{V_{Out} \cdot (V_{In, max} - V_{Out})}{\Delta I_L \cdot f_{sw} \cdot V_{In, max}} \]
+
+\textbf{But how do we choose inductor ripple current if L isn't known yet?}
+
+We estimate ripple current is 20\% to 40\% of maximum output current!
+\[ L_{min} = \frac{3.3V \cdot (16.8V - 3.3V)}{0.3 \cdot 0.5A \cdot 800kHz \cdot 16.8V} = 22uH \]
+
+\textbf{Remark:} From the formula above we can see that:
+\begin{enumerate}
+	\item 
+	The higher the switching frequency $f_{sw}$ the lower the $L_{min}$ value.
+	
+	\item 
+	The higher the output voltage $V_{Out}$ the lower the inductance.
+	
+	\item 
+	The higher the approximation of the ripple current, ie $0.3$ in our formula, the lower the inductance.
+	
+	\item 
+	The higher the maximum output current, ie $0.5A$ in our plot, the lower the inductance.
+\end{enumerate}
+
+\subsection{Diode selection:}
+Diode is often included in IC. However, if it isn't, it is needed to choose suitably \textbf{Schottky} diode, with current rating at off frequency $(1 - D)$ of at least:
+\[ I_F = I_{Out} \cdot (1 - D) = 375mA \]
+
+Also, check power dissipation of diode!
+\[ P_D = I_F \cdot V_F \]
+
+\subsection{Input/Output capacitor selection:}
+\textbf{Input capacitor:} typically given in datasheet! Use low-ESR caps, suitable dielectric/voltage rating.
+
+%E.g. from datasheet: Input the capacitor recomendation in the datasheet
+
+\textbf{Output capacitor:} minimum and/or equations typically given in datasheet! Low-ESR + larger value to reduce output voltage ripple. Check dielectric/voltage rating.
+
+%E.g. from datasheet: Input the capacitor recomendation in the datasheet
+
+\subsection{Feedback network:}
+\textbf{Feedback voltage divider sets output voltage!} V(feedback) $V_{FB}$ typically fixed internally by (precision) voltage reference (typ. 0.8V). \emph{(Given in datasheet)}
+\[ V_{Out} = V_{FB} \cdot \left(1 + \frac{R_{FB_1}}{R_{FB_2}} \right) \]
+
+Datasheet will provide information on suitable order of magnitude of R(feedback), typically 10-100 kOhms. Check tolerance (typ. 1\%)!
+\[ V_{Out} = 0.8V \cdot \left( 1 + \frac{75k\Omega}{24k\Omega} = 3.3V \right) \]
+
+\textbf{Remark:} We will look at how the tolerance of the resistor affect the output current range:
+\[ V_{Out} = V_{FB} \cdot \left(1 + \frac{(1 + d) \cdot R_{FB_1}}{(1 - d) \cdot R_{FB_2}} \right) \]
+
+With $d$ is the resistor tolerance, if:
+\begin{itemize}
+	\item
+	$d = 1\%$
+	\[ \Rightarrow 3.25V \leq V_{Out} \leq 3.35V \]
+	
+	\item
+	$d = 5\%$
+	\[ \Rightarrow 3.05V \leq V_{Out} \leq 3.55V \]
+	
+	\item
+	$d = 10\%$
+	\[ \Rightarrow 2.85V \leq V_{Out} \leq 3.85V \]
+\end{itemize}
+So the lower the resistor tolerance the better the output voltage range is, note that we want the output voltage range as tightly to our nominal voltage output, ie 3.3V.
+
+\section{Buck converter PCB design rule:}

@@ -1,6 +1,4 @@
 ../Core/Src/app_driver.c:13:6:app_loop	24	static
 ../Core/Src/app_driver.c:35:13:check_uid_data	24	static
 ../Core/Src/app_driver.c:58:13:input_password	24	static
-../Core/Src/app_driver.c:126:13:control_lcd_and_backlight	16	static
-../Core/Src/app_driver.c:145:13:clear_display_and_print	16	static
-../Core/Src/app_driver.c:157:13:delete_password	32	static
+../Core/Src/app_driver.c:159:13:delete_password	32	static

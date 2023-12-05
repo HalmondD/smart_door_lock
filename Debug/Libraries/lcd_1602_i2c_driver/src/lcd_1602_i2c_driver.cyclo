@@ -1,0 +1,10 @@
+../Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.c:39:6:lcd_1602_i2c_init	1
+../Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.c:82:6:lcd_1602_i2c_write_instruction	1
+../Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.c:94:6:lcd_1602_i2c_write_data	1
+../Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.c:106:6:lcd_1602_i2c_print_string	2
+../Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.c:115:13:lcd_1602_i2c_write_4bit	1
+../Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.c:121:13:lcd_1602_i2c_pulse_enable	1
+../Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.c:130:6:lcd_1602_i2c_set_cursor_position	1
+../Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.c:138:6:lcd_1602_i2c_control_backlight	1
+../Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.c:143:6:control_lcd_and_backlight	2
+../Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.c:162:6:clear_display_and_print	2

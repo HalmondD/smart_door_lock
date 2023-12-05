@@ -58,5 +58,7 @@ void lcd_1602_i2c_write_data(uint8_t lcd_data);
 void lcd_1602_i2c_print_string(const char string_array[]);
 void lcd_1602_i2c_set_cursor_position(uint8_t vi_tri_cot, uint8_t vi_tri_hang);
 void lcd_1602_i2c_control_backlight(uint8_t backlight_data);
+void control_lcd_and_backlight(bool control_state);
+void clear_display_and_print(const char string_array[], uint16_t delay_time_ms);
 
 #endif /* INC_LCD_1602_I2C_DRIVER_H_ */

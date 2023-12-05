@@ -1,0 +1,60 @@
+\documentclass[12pt]{report}
+
+%==================SYSTEM PACKAGE==================
+
+%Package dùng để viết tiếng Việt
+%\usepackage[utf8]{vietnam}
+
+%Package dùng để chèn hình
+\usepackage{graphicx}
+\graphicspath{ {images/} } %Directory để chứa hình
+
+%Make the math size bigger
+%\DeclareMathSizes {text-size} {math-size} {script-size} {scriptscript-size}
+%Basically, we instruct the use of a <mt-size> as the math text size, <s-size> as the script size and <ss-size> the scriptscript size to be used in math, when <t-size> is the current text size. You can adjust the parameters to suit. You can also find more information at
+\DeclareMathSizes{12}{17}{15}{11}
+
+%==================================================
+%================EDITORY PACKAGE===================
+
+%To force the paragraph skip a line
+%For \par command
+\usepackage{parskip}
+
+%For \degree command
+\usepackage{gensymb}
+
+%For \cancel command
+\usepackage{cancel}
+
+%For \text command
+\usepackage{amsmath}
+
+%For \organge, \white command
+\usepackage{xcolor}
+
+%For caption in subfigure
+\usepackage{caption}
+\usepackage{subcaption}
+
+%FOr [H]
+\usepackage{float}
+
+%===================================================
+
+\begin{document}
+	%Tiêu đề của note này
+	\title{Smart door lock with STM32 Blue Pill}
+	\author{Duong Anh Khoa}
+	\maketitle %Lệnh dùng để tạo tiêu đề
+	
+	%Tạo mục lục
+	\tableofcontents
+	
+	%Kết nối chương 2 với main.tex
+	\setcounter{chapter}{1} %Bắt đầu bộ đếm từ 1 + 1 = 2
+	\chapter{Power supply}
+	\newpage
+	\input{chapter/power_supply} %Lệnh để nhập chương 5
+	
+\end{document}

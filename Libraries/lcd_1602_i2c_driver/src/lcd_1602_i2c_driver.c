@@ -103,17 +103,6 @@ void lcd_1602_i2c_write_data(uint8_t lcd_data)
     lcd_1602_i2c_pulse_enable(low_nibble);
 }
 
-/*
-void lcd_1602_i2c_print_string(uint8_t* string_array, uint8_t string_byte_count)
-{
-    for (uint8_t i = 0; i < string_byte_count; i++)
-    {
-        lcd_1602_i2c_write_data(string_array[i]);
-        gettick_delay_ms(1);
-    }
-}
-*/
-
 void lcd_1602_i2c_print_string(const char string_array[])
 {
     while (*string_array != END_OF_LINE)
@@ -149,4 +138,35 @@ void lcd_1602_i2c_set_cursor_position(uint8_t vi_tri_cot, uint8_t vi_tri_hang)
 void lcd_1602_i2c_control_backlight(uint8_t backlight_data)
 {
     backlight_state = backlight_data;
+}
+
+void control_lcd_and_backlight(bool control_state)
+{
+	lcd_1602_i2c_write_instruction(CLEAR_DISPLAY);
+	gettick_delay_ms(2);
+
+	if (control_state == ENABLE)
+	{
+		lcd_1602_i2c_control_backlight(BACKLIGHT_ON);
+		lcd_1602_i2c_write_instruction(LCD_ON);
+		gettick_delay_ms(1);
+	}
+	else
+	{
+		lcd_1602_i2c_control_backlight(BACKLIGHT_OFF);
+		lcd_1602_i2c_write_instruction(LCD_OFF);
+		gettick_delay_ms(1);
+	}
+}
+
+void clear_display_and_print(const char string_array[], uint16_t delay_time_ms)
+{
+	lcd_1602_i2c_write_instruction(CLEAR_DISPLAY);
+	gettick_delay_ms(2);
+	lcd_1602_i2c_set_cursor_position(1, 0);
+
+	lcd_1602_i2c_print_string(string_array);
+
+	if (delay_time_ms != 0)
+		gettick_delay_ms(delay_time_ms);
 }

@@ -2,8 +2,6 @@
 
 static bool check_uid_data(struct UID* input_uid);
 static void input_password(void);
-static void control_lcd_and_backlight(bool control_state);
-static void clear_display_and_print(const char string_array[], uint16_t delay_time_ms);
 static void delete_password(char* input_password_array, uint8_t* password_index, uint8_t* input_password_count);
 /*
 static void welcome_lcd(struct UID* input_uid);
@@ -121,37 +119,6 @@ static void input_password(void)
 
 	clear_display_and_print("Door Open", 2000);
 	control_lcd_and_backlight(DISABLE);
-}
-
-static void control_lcd_and_backlight(bool control_state)
-{
-	lcd_1602_i2c_write_instruction(CLEAR_DISPLAY);
-	gettick_delay_ms(2);
-
-	if (control_state == ENABLE)
-	{
-		lcd_1602_i2c_control_backlight(BACKLIGHT_ON);
-		lcd_1602_i2c_write_instruction(LCD_ON);
-		gettick_delay_ms(1);
-	}
-	else
-	{
-		lcd_1602_i2c_control_backlight(BACKLIGHT_OFF);
-		lcd_1602_i2c_write_instruction(LCD_OFF);
-		gettick_delay_ms(1);
-	}
-}
-
-static void clear_display_and_print(const char string_array[], uint16_t delay_time_ms)
-{
-	lcd_1602_i2c_write_instruction(CLEAR_DISPLAY);
-	gettick_delay_ms(2);
-	lcd_1602_i2c_set_cursor_position(1, 0);
-
-	lcd_1602_i2c_print_string(string_array);
-
-	if (delay_time_ms != 0)
-		gettick_delay_ms(delay_time_ms);
 }
 
 static void delete_password(char* input_password_array, uint8_t* password_index, uint8_t* input_password_count)
