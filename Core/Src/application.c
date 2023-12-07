@@ -1,8 +1,8 @@
 #include "application.h"
 
-static bool check_uid_data(struct UID* input_uid);
-static void input_password(void);
-static void delete_password(char* input_password_array, uint8_t* password_index, uint8_t* input_password_count);
+//static bool check_uid_data(struct UID* input_uid);
+static void input_password_t(void);
+static void delete_password_t(char* input_password_array, uint8_t* password_index, uint8_t* input_password_count);
 /*
 static void welcome_lcd(struct UID* input_uid);
 static uint8_t turn_nibble_to_ascii(uint8_t nibble_data);
@@ -15,6 +15,29 @@ void app_loop(SPI_HandleTypeDef* hspi2, I2C_HandleTypeDef* hi2c1)
 
 	lcd_1602_i2c_init(hi2c1);
 
+	uint8_t master_uid_data_array[4] = {0x00, 0x47, 0xE6, 0x1E};
+	struct password master_uid;
+	master_uid.byte_count = 4;
+	master_uid.data_array = master_uid_data_array;
+	master_uid.index = 0;
+
+	struct password checked_uid;
+	checked_uid.byte_count = 4;
+	checked_uid.data_array = input_uid.data_array;
+	checked_uid.index = 0;
+
+	uint8_t master_password_array[PASSWORD_COUNT] = {'1', '2', '5', '6'};
+	struct password master_password;
+	master_password.byte_count = PASSWORD_COUNT;
+	master_password.data_array = master_password_array;
+	master_password.index = 0;
+
+	uint8_t input_password_array[PASSWORD_COUNT];
+	struct password input_password;
+	input_password.byte_count = PASSWORD_COUNT;
+	input_password.data_array = input_password_array;
+	input_password.index = 0;
+
 	while (true)
 	{
 		while (rfid_rc522_wait_for_card() != true)
@@ -22,14 +45,25 @@ void app_loop(SPI_HandleTypeDef* hspi2, I2C_HandleTypeDef* hi2c1)
 		
 		rfid_rc522_read_serial(&input_uid);
 
-		if (check_uid_data(&input_uid) == false)
-			break;
+		if (check_password(&master_uid, &checked_uid) == false)
+		{
+			control_lcd_and_backlight(ENABLE);
 
-		input_password();
+			lcd_1602_i2c_set_cursor_position(1, 0);
+			lcd_1602_i2c_print_string("Wrong Card!");
+			gettick_delay_ms(2000);
+
+			control_lcd_and_backlight(DISABLE);
+
+			break;
+		}
+
+		input_password_t();
 		gettick_delay_ms(2000);
 	}
 }
 
+/*
 static bool check_uid_data(struct UID* input_uid)
 {
 	uint8_t master_uid_data_array[4] = {0x00, 0x47, 0xE6, 0x1E};
@@ -52,8 +86,9 @@ static bool check_uid_data(struct UID* input_uid)
 
 	return true;
 }
+*/
 
-static void input_password(void)
+static void input_password_t(void)
 {
 	uint8_t gia_tri_phim_nhan;
 	char	input_password_array[PASSWORD_COUNT];
@@ -77,7 +112,7 @@ static void input_password(void)
 
 			if (input_password_count > 15)
 			{
-				delete_password(input_password_array, &password_index, &input_password_count);
+				delete_password_t(input_password_array, &password_index, &input_password_count);
 
 				clear_display_and_print("Too Long!", 2000);
 				clear_display_and_print("Input Password:", 0);
@@ -93,7 +128,7 @@ static void input_password(void)
 
 			if (gia_tri_phim_nhan == '#')
 			{
-				delete_password(input_password_array, &password_index, &input_password_count);
+				delete_password_t(input_password_array, &password_index, &input_password_count);
 
 				clear_display_and_print("Input Password:", 0);
 				lcd_1602_i2c_set_cursor_position(2, 0);
@@ -104,7 +139,7 @@ static void input_password(void)
 		{
 			if ((master_password_array[password_index] != input_password_array[password_index]) | (input_password_count > PASSWORD_COUNT))
 			{
-				delete_password(input_password_array, &password_index, &input_password_count);
+				delete_password_t(input_password_array, &password_index, &input_password_count);
 				is_password_right = false;
 
 				clear_display_and_print("Wrong Password!", 2000);
@@ -121,7 +156,7 @@ static void input_password(void)
 	control_lcd_and_backlight(DISABLE);
 }
 
-static void delete_password(char* input_password_array, uint8_t* password_index, uint8_t* input_password_count)
+static void delete_password_t(char* input_password_array, uint8_t* password_index, uint8_t* input_password_count)
 {
 	*password_index = 0;
 	*input_password_count = 0;

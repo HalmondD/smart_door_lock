@@ -2607,6 +2607,85 @@ Discarded input sections
  .debug_macro   0x0000000000000000      0x140 ./Libraries/misc/src/misc.o
  .debug_macro   0x0000000000000000      0x217 ./Libraries/misc/src/misc.o
  .debug_macro   0x0000000000000000       0x83 ./Libraries/misc/src/misc.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .group         0x0000000000000000        0xc ./Libraries/password_manager/src/password_manager.o
+ .text          0x0000000000000000        0x0 ./Libraries/password_manager/src/password_manager.o
+ .data          0x0000000000000000        0x0 ./Libraries/password_manager/src/password_manager.o
+ .bss           0x0000000000000000        0x0 ./Libraries/password_manager/src/password_manager.o
+ .text.delete_password
+                0x0000000000000000       0x46 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000      0xa9c ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0x22 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0x8e ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0x51 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000      0x103 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0x6a ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000      0x1df ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0x22 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000      0x21b ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0x2e ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0x22 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0x1c ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0x22 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0xbd ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000      0xd23 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000     0xe09e ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0x6d ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000     0x348d ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000      0x174 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0x5c ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000      0x5bc ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000      0x289 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000      0x1cb ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000      0x114 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000      0x1b2 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0x27 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000      0x136 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000      0x1bc ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0x34 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0x3c ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0x57 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0x87 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000      0x240 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000      0x287 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000      0x140 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000      0x217 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000000000       0x83 ./Libraries/password_manager/src/password_manager.o
  .group         0x0000000000000000        0xc ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
  .group         0x0000000000000000        0xc ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
  .group         0x0000000000000000        0xc ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
@@ -2958,6 +3037,7 @@ LOAD ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o
 LOAD ./Libraries/keypad_driver/src/keypad_driver.o
 LOAD ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
 LOAD ./Libraries/misc/src/misc.o
+LOAD ./Libraries/password_manager/src/password_manager.o
 LOAD ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
 START GROUP
 LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a
@@ -2990,401 +3070,401 @@ LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x0000000008000000                g_pfnVectors
                 0x000000000800010c                . = ALIGN (0x4)
 
-.text           0x000000000800010c     0x3558
+.text           0x000000000800010c     0x35b0
                 0x000000000800010c                . = ALIGN (0x4)
  *(.text)
  .text          0x000000000800010c       0x40 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.text*)
  .text.app_loop
-                0x000000000800014c       0x62 ./Core/Src/application.o
+                0x000000000800014c       0xe4 ./Core/Src/application.o
                 0x000000000800014c                app_loop
- *fill*         0x00000000080001ae        0x2 
- .text.check_uid_data
-                0x00000000080001b0       0x70 ./Core/Src/application.o
- .text.input_password
-                0x0000000008000220      0x15c ./Core/Src/application.o
- .text.delete_password
-                0x000000000800037c       0x40 ./Core/Src/application.o
- .text.main     0x00000000080003bc       0x2c ./Core/Src/main.o
-                0x00000000080003bc                main
+ .text.input_password_t
+                0x0000000008000230      0x15c ./Core/Src/application.o
+ .text.delete_password_t
+                0x000000000800038c       0x40 ./Core/Src/application.o
+ .text.main     0x00000000080003cc       0x2c ./Core/Src/main.o
+                0x00000000080003cc                main
  .text.SystemClock_Config
-                0x00000000080003e8       0x76 ./Core/Src/main.o
-                0x00000000080003e8                SystemClock_Config
- *fill*         0x000000000800045e        0x2 
+                0x00000000080003f8       0x76 ./Core/Src/main.o
+                0x00000000080003f8                SystemClock_Config
+ *fill*         0x000000000800046e        0x2 
  .text.MX_I2C1_Init
-                0x0000000008000460       0x5c ./Core/Src/main.o
+                0x0000000008000470       0x5c ./Core/Src/main.o
  .text.MX_SPI2_Init
-                0x00000000080004bc       0x6c ./Core/Src/main.o
+                0x00000000080004cc       0x6c ./Core/Src/main.o
  .text.MX_GPIO_Init
-                0x0000000008000528       0xf8 ./Core/Src/main.o
+                0x0000000008000538       0xf8 ./Core/Src/main.o
  .text.Error_Handler
-                0x0000000008000620        0xa ./Core/Src/main.o
-                0x0000000008000620                Error_Handler
- *fill*         0x000000000800062a        0x2 
+                0x0000000008000630        0xa ./Core/Src/main.o
+                0x0000000008000630                Error_Handler
+ *fill*         0x000000000800063a        0x2 
  .text.HAL_MspInit
-                0x000000000800062c       0x64 ./Core/Src/stm32f1xx_hal_msp.o
-                0x000000000800062c                HAL_MspInit
+                0x000000000800063c       0x64 ./Core/Src/stm32f1xx_hal_msp.o
+                0x000000000800063c                HAL_MspInit
  .text.HAL_I2C_MspInit
-                0x0000000008000690       0xa0 ./Core/Src/stm32f1xx_hal_msp.o
-                0x0000000008000690                HAL_I2C_MspInit
+                0x00000000080006a0       0xa0 ./Core/Src/stm32f1xx_hal_msp.o
+                0x00000000080006a0                HAL_I2C_MspInit
  .text.HAL_SPI_MspInit
-                0x0000000008000730       0x98 ./Core/Src/stm32f1xx_hal_msp.o
-                0x0000000008000730                HAL_SPI_MspInit
+                0x0000000008000740       0x98 ./Core/Src/stm32f1xx_hal_msp.o
+                0x0000000008000740                HAL_SPI_MspInit
  .text.NMI_Handler
-                0x00000000080007c8        0x6 ./Core/Src/stm32f1xx_it.o
-                0x00000000080007c8                NMI_Handler
+                0x00000000080007d8        0x6 ./Core/Src/stm32f1xx_it.o
+                0x00000000080007d8                NMI_Handler
  .text.HardFault_Handler
-                0x00000000080007ce        0x6 ./Core/Src/stm32f1xx_it.o
-                0x00000000080007ce                HardFault_Handler
+                0x00000000080007de        0x6 ./Core/Src/stm32f1xx_it.o
+                0x00000000080007de                HardFault_Handler
  .text.MemManage_Handler
-                0x00000000080007d4        0x6 ./Core/Src/stm32f1xx_it.o
-                0x00000000080007d4                MemManage_Handler
+                0x00000000080007e4        0x6 ./Core/Src/stm32f1xx_it.o
+                0x00000000080007e4                MemManage_Handler
  .text.BusFault_Handler
-                0x00000000080007da        0x6 ./Core/Src/stm32f1xx_it.o
-                0x00000000080007da                BusFault_Handler
+                0x00000000080007ea        0x6 ./Core/Src/stm32f1xx_it.o
+                0x00000000080007ea                BusFault_Handler
  .text.UsageFault_Handler
-                0x00000000080007e0        0x6 ./Core/Src/stm32f1xx_it.o
-                0x00000000080007e0                UsageFault_Handler
+                0x00000000080007f0        0x6 ./Core/Src/stm32f1xx_it.o
+                0x00000000080007f0                UsageFault_Handler
  .text.SVC_Handler
-                0x00000000080007e6        0xc ./Core/Src/stm32f1xx_it.o
-                0x00000000080007e6                SVC_Handler
+                0x00000000080007f6        0xc ./Core/Src/stm32f1xx_it.o
+                0x00000000080007f6                SVC_Handler
  .text.DebugMon_Handler
-                0x00000000080007f2        0xc ./Core/Src/stm32f1xx_it.o
-                0x00000000080007f2                DebugMon_Handler
+                0x0000000008000802        0xc ./Core/Src/stm32f1xx_it.o
+                0x0000000008000802                DebugMon_Handler
  .text.PendSV_Handler
-                0x00000000080007fe        0xc ./Core/Src/stm32f1xx_it.o
-                0x00000000080007fe                PendSV_Handler
+                0x000000000800080e        0xc ./Core/Src/stm32f1xx_it.o
+                0x000000000800080e                PendSV_Handler
  .text.SysTick_Handler
-                0x000000000800080a        0xc ./Core/Src/stm32f1xx_it.o
-                0x000000000800080a                SysTick_Handler
+                0x000000000800081a        0xc ./Core/Src/stm32f1xx_it.o
+                0x000000000800081a                SysTick_Handler
  .text.SystemInit
-                0x0000000008000816        0xc ./Core/Src/system_stm32f1xx.o
-                0x0000000008000816                SystemInit
- *fill*         0x0000000008000822        0x2 
+                0x0000000008000826        0xc ./Core/Src/system_stm32f1xx.o
+                0x0000000008000826                SystemInit
+ *fill*         0x0000000008000832        0x2 
  .text.Reset_Handler
-                0x0000000008000824       0x48 ./Core/Startup/startup_stm32f103c8tx.o
-                0x0000000008000824                Reset_Handler
+                0x0000000008000834       0x48 ./Core/Startup/startup_stm32f103c8tx.o
+                0x0000000008000834                Reset_Handler
  .text.Default_Handler
-                0x000000000800086c        0x2 ./Core/Startup/startup_stm32f103c8tx.o
-                0x000000000800086c                RTC_Alarm_IRQHandler
-                0x000000000800086c                EXTI2_IRQHandler
-                0x000000000800086c                TIM1_CC_IRQHandler
-                0x000000000800086c                PVD_IRQHandler
-                0x000000000800086c                EXTI3_IRQHandler
-                0x000000000800086c                EXTI0_IRQHandler
-                0x000000000800086c                I2C2_EV_IRQHandler
-                0x000000000800086c                ADC1_2_IRQHandler
-                0x000000000800086c                SPI1_IRQHandler
-                0x000000000800086c                TAMPER_IRQHandler
-                0x000000000800086c                DMA1_Channel4_IRQHandler
-                0x000000000800086c                USART3_IRQHandler
-                0x000000000800086c                RTC_IRQHandler
-                0x000000000800086c                DMA1_Channel7_IRQHandler
-                0x000000000800086c                CAN1_RX1_IRQHandler
-                0x000000000800086c                TIM4_IRQHandler
-                0x000000000800086c                I2C1_EV_IRQHandler
-                0x000000000800086c                DMA1_Channel6_IRQHandler
-                0x000000000800086c                TIM3_IRQHandler
-                0x000000000800086c                RCC_IRQHandler
-                0x000000000800086c                TIM1_TRG_COM_IRQHandler
-                0x000000000800086c                DMA1_Channel1_IRQHandler
-                0x000000000800086c                Default_Handler
-                0x000000000800086c                EXTI15_10_IRQHandler
-                0x000000000800086c                EXTI9_5_IRQHandler
-                0x000000000800086c                SPI2_IRQHandler
-                0x000000000800086c                DMA1_Channel5_IRQHandler
-                0x000000000800086c                EXTI4_IRQHandler
-                0x000000000800086c                USB_LP_CAN1_RX0_IRQHandler
-                0x000000000800086c                USB_HP_CAN1_TX_IRQHandler
-                0x000000000800086c                DMA1_Channel3_IRQHandler
-                0x000000000800086c                TIM1_UP_IRQHandler
-                0x000000000800086c                WWDG_IRQHandler
-                0x000000000800086c                TIM2_IRQHandler
-                0x000000000800086c                TIM1_BRK_IRQHandler
-                0x000000000800086c                EXTI1_IRQHandler
-                0x000000000800086c                USART2_IRQHandler
-                0x000000000800086c                I2C2_ER_IRQHandler
-                0x000000000800086c                DMA1_Channel2_IRQHandler
-                0x000000000800086c                CAN1_SCE_IRQHandler
-                0x000000000800086c                FLASH_IRQHandler
-                0x000000000800086c                USART1_IRQHandler
-                0x000000000800086c                I2C1_ER_IRQHandler
-                0x000000000800086c                USBWakeUp_IRQHandler
- *fill*         0x000000000800086e        0x2 
+                0x000000000800087c        0x2 ./Core/Startup/startup_stm32f103c8tx.o
+                0x000000000800087c                RTC_Alarm_IRQHandler
+                0x000000000800087c                EXTI2_IRQHandler
+                0x000000000800087c                TIM1_CC_IRQHandler
+                0x000000000800087c                PVD_IRQHandler
+                0x000000000800087c                EXTI3_IRQHandler
+                0x000000000800087c                EXTI0_IRQHandler
+                0x000000000800087c                I2C2_EV_IRQHandler
+                0x000000000800087c                ADC1_2_IRQHandler
+                0x000000000800087c                SPI1_IRQHandler
+                0x000000000800087c                TAMPER_IRQHandler
+                0x000000000800087c                DMA1_Channel4_IRQHandler
+                0x000000000800087c                USART3_IRQHandler
+                0x000000000800087c                RTC_IRQHandler
+                0x000000000800087c                DMA1_Channel7_IRQHandler
+                0x000000000800087c                CAN1_RX1_IRQHandler
+                0x000000000800087c                TIM4_IRQHandler
+                0x000000000800087c                I2C1_EV_IRQHandler
+                0x000000000800087c                DMA1_Channel6_IRQHandler
+                0x000000000800087c                TIM3_IRQHandler
+                0x000000000800087c                RCC_IRQHandler
+                0x000000000800087c                TIM1_TRG_COM_IRQHandler
+                0x000000000800087c                DMA1_Channel1_IRQHandler
+                0x000000000800087c                Default_Handler
+                0x000000000800087c                EXTI15_10_IRQHandler
+                0x000000000800087c                EXTI9_5_IRQHandler
+                0x000000000800087c                SPI2_IRQHandler
+                0x000000000800087c                DMA1_Channel5_IRQHandler
+                0x000000000800087c                EXTI4_IRQHandler
+                0x000000000800087c                USB_LP_CAN1_RX0_IRQHandler
+                0x000000000800087c                USB_HP_CAN1_TX_IRQHandler
+                0x000000000800087c                DMA1_Channel3_IRQHandler
+                0x000000000800087c                TIM1_UP_IRQHandler
+                0x000000000800087c                WWDG_IRQHandler
+                0x000000000800087c                TIM2_IRQHandler
+                0x000000000800087c                TIM1_BRK_IRQHandler
+                0x000000000800087c                EXTI1_IRQHandler
+                0x000000000800087c                USART2_IRQHandler
+                0x000000000800087c                I2C2_ER_IRQHandler
+                0x000000000800087c                DMA1_Channel2_IRQHandler
+                0x000000000800087c                CAN1_SCE_IRQHandler
+                0x000000000800087c                FLASH_IRQHandler
+                0x000000000800087c                USART1_IRQHandler
+                0x000000000800087c                I2C1_ER_IRQHandler
+                0x000000000800087c                USBWakeUp_IRQHandler
+ *fill*         0x000000000800087e        0x2 
  .text.HAL_Init
-                0x0000000008000870       0x2c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
-                0x0000000008000870                HAL_Init
+                0x0000000008000880       0x2c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+                0x0000000008000880                HAL_Init
  .text.HAL_InitTick
-                0x000000000800089c       0x60 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
-                0x000000000800089c                HAL_InitTick
+                0x00000000080008ac       0x60 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+                0x00000000080008ac                HAL_InitTick
  .text.HAL_IncTick
-                0x00000000080008fc       0x24 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
-                0x00000000080008fc                HAL_IncTick
+                0x000000000800090c       0x24 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+                0x000000000800090c                HAL_IncTick
  .text.HAL_GetTick
-                0x0000000008000920       0x14 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
-                0x0000000008000920                HAL_GetTick
+                0x0000000008000930       0x14 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+                0x0000000008000930                HAL_GetTick
  .text.__NVIC_SetPriorityGrouping
-                0x0000000008000934       0x48 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+                0x0000000008000944       0x48 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
  .text.__NVIC_GetPriorityGrouping
-                0x000000000800097c       0x1c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+                0x000000000800098c       0x1c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
  .text.__NVIC_SetPriority
-                0x0000000008000998       0x54 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+                0x00000000080009a8       0x54 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
  .text.NVIC_EncodePriority
-                0x00000000080009ec       0x64 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+                0x00000000080009fc       0x64 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
  .text.SysTick_Config
-                0x0000000008000a50       0x44 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+                0x0000000008000a60       0x44 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
  .text.HAL_NVIC_SetPriorityGrouping
-                0x0000000008000a94       0x16 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
-                0x0000000008000a94                HAL_NVIC_SetPriorityGrouping
+                0x0000000008000aa4       0x16 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+                0x0000000008000aa4                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x0000000008000aaa       0x38 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
-                0x0000000008000aaa                HAL_NVIC_SetPriority
+                0x0000000008000aba       0x38 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+                0x0000000008000aba                HAL_NVIC_SetPriority
  .text.HAL_SYSTICK_Config
-                0x0000000008000ae2       0x18 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
-                0x0000000008000ae2                HAL_SYSTICK_Config
- *fill*         0x0000000008000afa        0x2 
+                0x0000000008000af2       0x18 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+                0x0000000008000af2                HAL_SYSTICK_Config
+ *fill*         0x0000000008000b0a        0x2 
  .text.HAL_GPIO_Init
-                0x0000000008000afc      0x308 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
-                0x0000000008000afc                HAL_GPIO_Init
+                0x0000000008000b0c      0x308 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+                0x0000000008000b0c                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x0000000008000e04       0x30 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
-                0x0000000008000e04                HAL_GPIO_WritePin
+                0x0000000008000e14       0x30 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+                0x0000000008000e14                HAL_GPIO_WritePin
  .text.HAL_I2C_Init
-                0x0000000008000e34      0x288 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
-                0x0000000008000e34                HAL_I2C_Init
+                0x0000000008000e44      0x288 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+                0x0000000008000e44                HAL_I2C_Init
  .text.HAL_I2C_Master_Transmit
-                0x00000000080010bc      0x1fc ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
-                0x00000000080010bc                HAL_I2C_Master_Transmit
+                0x00000000080010cc      0x1fc ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+                0x00000000080010cc                HAL_I2C_Master_Transmit
  .text.I2C_MasterRequestWrite
-                0x00000000080012b8      0x104 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+                0x00000000080012c8      0x104 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
  .text.I2C_WaitOnFlagUntilTimeout
-                0x00000000080013bc       0xf4 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+                0x00000000080013cc       0xf4 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
  .text.I2C_WaitOnMasterAddressFlagUntilTimeout
-                0x00000000080014b0      0x140 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+                0x00000000080014c0      0x140 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
  .text.I2C_WaitOnTXEFlagUntilTimeout
-                0x00000000080015f0       0x90 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+                0x0000000008001600       0x90 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
  .text.I2C_WaitOnBTFFlagUntilTimeout
-                0x0000000008001680       0x90 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+                0x0000000008001690       0x90 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
  .text.I2C_IsAcknowledgeFailed
-                0x0000000008001710       0x5c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+                0x0000000008001720       0x5c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
  .text.HAL_RCC_OscConfig
-                0x000000000800176c      0x504 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
-                0x000000000800176c                HAL_RCC_OscConfig
+                0x000000000800177c      0x504 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+                0x000000000800177c                HAL_RCC_OscConfig
  .text.HAL_RCC_ClockConfig
-                0x0000000008001c70      0x1d4 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
-                0x0000000008001c70                HAL_RCC_ClockConfig
+                0x0000000008001c80      0x1d4 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+                0x0000000008001c80                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x0000000008001e44       0xa8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
-                0x0000000008001e44                HAL_RCC_GetSysClockFreq
+                0x0000000008001e54       0xa8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+                0x0000000008001e54                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_GetHCLKFreq
-                0x0000000008001eec       0x14 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
-                0x0000000008001eec                HAL_RCC_GetHCLKFreq
+                0x0000000008001efc       0x14 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+                0x0000000008001efc                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x0000000008001f00       0x28 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
-                0x0000000008001f00                HAL_RCC_GetPCLK1Freq
+                0x0000000008001f10       0x28 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+                0x0000000008001f10                HAL_RCC_GetPCLK1Freq
  .text.RCC_Delay
-                0x0000000008001f28       0x3c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+                0x0000000008001f38       0x3c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
  .text.HAL_SPI_Init
-                0x0000000008001f64      0x108 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
-                0x0000000008001f64                HAL_SPI_Init
+                0x0000000008001f74      0x108 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
+                0x0000000008001f74                HAL_SPI_Init
  .text.HAL_SPI_Transmit
-                0x000000000800206c      0x286 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
-                0x000000000800206c                HAL_SPI_Transmit
+                0x000000000800207c      0x286 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
+                0x000000000800207c                HAL_SPI_Transmit
  .text.HAL_SPI_TransmitReceive
-                0x00000000080022f2      0x360 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
-                0x00000000080022f2                HAL_SPI_TransmitReceive
- *fill*         0x0000000008002652        0x2 
+                0x0000000008002302      0x360 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
+                0x0000000008002302                HAL_SPI_TransmitReceive
+ *fill*         0x0000000008002662        0x2 
  .text.SPI_WaitFlagStateUntilTimeout
-                0x0000000008002654      0x110 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
+                0x0000000008002664      0x110 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
  .text.SPI_EndRxTxTransaction
-                0x0000000008002764       0x3c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
+                0x0000000008002774       0x3c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
  .text.keypad_4x4_return_gia_tri_phim_nhan
-                0x00000000080027a0       0x90 ./Libraries/keypad_driver/src/keypad_driver.o
-                0x00000000080027a0                keypad_4x4_return_gia_tri_phim_nhan
+                0x00000000080027b0       0x90 ./Libraries/keypad_driver/src/keypad_driver.o
+                0x00000000080027b0                keypad_4x4_return_gia_tri_phim_nhan
  .text.check_trang_thai_phim
-                0x0000000008002830       0x68 ./Libraries/keypad_driver/src/keypad_driver.o
+                0x0000000008002840       0x68 ./Libraries/keypad_driver/src/keypad_driver.o
  .text.doc_gia_tri_phim
-                0x0000000008002898       0x54 ./Libraries/keypad_driver/src/keypad_driver.o
+                0x00000000080028a8       0x54 ./Libraries/keypad_driver/src/keypad_driver.o
  .text.lcd_1602_i2c_init
-                0x00000000080028ec       0xa8 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
-                0x00000000080028ec                lcd_1602_i2c_init
+                0x00000000080028fc       0xa8 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+                0x00000000080028fc                lcd_1602_i2c_init
  .text.lcd_1602_i2c_write_instruction
-                0x0000000008002994       0x40 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
-                0x0000000008002994                lcd_1602_i2c_write_instruction
+                0x00000000080029a4       0x40 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+                0x00000000080029a4                lcd_1602_i2c_write_instruction
  .text.lcd_1602_i2c_write_data
-                0x00000000080029d4       0x52 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
-                0x00000000080029d4                lcd_1602_i2c_write_data
+                0x00000000080029e4       0x52 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+                0x00000000080029e4                lcd_1602_i2c_write_data
  .text.lcd_1602_i2c_print_string
-                0x0000000008002a26       0x2c ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
-                0x0000000008002a26                lcd_1602_i2c_print_string
- *fill*         0x0000000008002a52        0x2 
+                0x0000000008002a36       0x2c ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+                0x0000000008002a36                lcd_1602_i2c_print_string
+ *fill*         0x0000000008002a62        0x2 
  .text.lcd_1602_i2c_write_4bit
-                0x0000000008002a54       0x3c ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+                0x0000000008002a64       0x3c ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
  .text.lcd_1602_i2c_pulse_enable
-                0x0000000008002a90       0x3a ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
- *fill*         0x0000000008002aca        0x2 
+                0x0000000008002aa0       0x3a ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+ *fill*         0x0000000008002ada        0x2 
  .text.lcd_1602_i2c_set_cursor_position
-                0x0000000008002acc       0x4c ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
-                0x0000000008002acc                lcd_1602_i2c_set_cursor_position
+                0x0000000008002adc       0x4c ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+                0x0000000008002adc                lcd_1602_i2c_set_cursor_position
  .text.lcd_1602_i2c_control_backlight
-                0x0000000008002b18       0x20 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
-                0x0000000008002b18                lcd_1602_i2c_control_backlight
+                0x0000000008002b28       0x20 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+                0x0000000008002b28                lcd_1602_i2c_control_backlight
  .text.control_lcd_and_backlight
-                0x0000000008002b38       0x4a ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
-                0x0000000008002b38                control_lcd_and_backlight
+                0x0000000008002b48       0x4a ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+                0x0000000008002b48                control_lcd_and_backlight
  .text.clear_display_and_print
-                0x0000000008002b82       0x3c ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
-                0x0000000008002b82                clear_display_and_print
+                0x0000000008002b92       0x3c ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+                0x0000000008002b92                clear_display_and_print
  .text.gettick_delay_ms
-                0x0000000008002bbe       0x28 ./Libraries/misc/src/misc.o
-                0x0000000008002bbe                gettick_delay_ms
- *fill*         0x0000000008002be6        0x2 
+                0x0000000008002bce       0x28 ./Libraries/misc/src/misc.o
+                0x0000000008002bce                gettick_delay_ms
+ .text.check_password
+                0x0000000008002bf6       0x48 ./Libraries/password_manager/src/password_manager.o
+                0x0000000008002bf6                check_password
+ *fill*         0x0000000008002c3e        0x2 
  .text.rfid_rc522_write_one_data
-                0x0000000008002be8       0x50 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
-                0x0000000008002be8                rfid_rc522_write_one_data
+                0x0000000008002c40       0x50 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x0000000008002c40                rfid_rc522_write_one_data
  .text.rfid_rc522_write_many_data
-                0x0000000008002c38       0xe8 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
-                0x0000000008002c38                rfid_rc522_write_many_data
+                0x0000000008002c90       0xe8 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x0000000008002c90                rfid_rc522_write_many_data
  .text.rfid_rc522_read_one_data
-                0x0000000008002d20       0x58 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
-                0x0000000008002d20                rfid_rc522_read_one_data
+                0x0000000008002d78       0x58 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x0000000008002d78                rfid_rc522_read_one_data
  .text.rfid_rc522_read_many_data
-                0x0000000008002d78      0x114 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
-                0x0000000008002d78                rfid_rc522_read_many_data
+                0x0000000008002dd0      0x114 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x0000000008002dd0                rfid_rc522_read_many_data
  .text.rfid_rc522_clear_register_bit_mask
-                0x0000000008002e8c       0x40 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
-                0x0000000008002e8c                rfid_rc522_clear_register_bit_mask
+                0x0000000008002ee4       0x40 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x0000000008002ee4                rfid_rc522_clear_register_bit_mask
  .text.rfid_rc522_set_register_bit_mask
-                0x0000000008002ecc       0x36 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
-                0x0000000008002ecc                rfid_rc522_set_register_bit_mask
+                0x0000000008002f24       0x36 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x0000000008002f24                rfid_rc522_set_register_bit_mask
  .text.rfid_rc522_get_register_bit_mask
-                0x0000000008002f02       0x2a ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
-                0x0000000008002f02                rfid_rc522_get_register_bit_mask
+                0x0000000008002f5a       0x2a ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x0000000008002f5a                rfid_rc522_get_register_bit_mask
  .text.rfid_rc522_calculate_crc
-                0x0000000008002f2c       0x94 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
-                0x0000000008002f2c                rfid_rc522_calculate_crc
+                0x0000000008002f84       0x94 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x0000000008002f84                rfid_rc522_calculate_crc
  .text.rfid_rc522_init
-                0x0000000008002fc0       0x6c ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
-                0x0000000008002fc0                rfid_rc522_init
+                0x0000000008003018       0x6c ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x0000000008003018                rfid_rc522_init
  .text.rfid_rc522_soft_reset
-                0x000000000800302c       0x3c ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
-                0x000000000800302c                rfid_rc522_soft_reset
+                0x0000000008003084       0x3c ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x0000000008003084                rfid_rc522_soft_reset
  .text.rfid_rc522_antenna_on
-                0x0000000008003068       0x28 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
-                0x0000000008003068                rfid_rc522_antenna_on
+                0x00000000080030c0       0x28 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x00000000080030c0                rfid_rc522_antenna_on
  .text.rfid_rc522_transceive_data
-                0x0000000008003090       0x44 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
-                0x0000000008003090                rfid_rc522_transceive_data
+                0x00000000080030e8       0x44 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x00000000080030e8                rfid_rc522_transceive_data
  .text.rfid_rc522_communicate_with_rfid_card
-                0x00000000080030d4      0x1d4 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
-                0x00000000080030d4                rfid_rc522_communicate_with_rfid_card
+                0x000000000800312c      0x1d4 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x000000000800312c                rfid_rc522_communicate_with_rfid_card
  .text.rfid_card_request_A
-                0x00000000080032a8       0x1e ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
-                0x00000000080032a8                rfid_card_request_A
+                0x0000000008003300       0x1e ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x0000000008003300                rfid_card_request_A
  .text.rfid_card_REQA_or_WUPA
-                0x00000000080032c6       0x72 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
-                0x00000000080032c6                rfid_card_REQA_or_WUPA
+                0x000000000800331e       0x72 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x000000000800331e                rfid_card_REQA_or_WUPA
  .text.rfid_rc522_read_serial
-                0x0000000008003338      0x286 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
-                0x0000000008003338                rfid_rc522_read_serial
+                0x0000000008003390      0x286 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x0000000008003390                rfid_rc522_read_serial
  .text.rfid_rc522_wait_for_card
-                0x00000000080035be       0x36 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
-                0x00000000080035be                rfid_rc522_wait_for_card
- .text.memset   0x00000000080035f4       0x10 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-memset.o)
-                0x00000000080035f4                memset
+                0x0000000008003616       0x36 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x0000000008003616                rfid_rc522_wait_for_card
+ .text.memset   0x000000000800364c       0x10 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-memset.o)
+                0x000000000800364c                memset
  .text.__libc_init_array
-                0x0000000008003604       0x48 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
-                0x0000000008003604                __libc_init_array
+                0x000000000800365c       0x48 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+                0x000000000800365c                __libc_init_array
  *(.glue_7)
- .glue_7        0x000000000800364c        0x0 linker stubs
+ .glue_7        0x00000000080036a4        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x000000000800364c        0x0 linker stubs
+ .glue_7t       0x00000000080036a4        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x000000000800364c        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x00000000080036a4        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x000000000800364c        0x4 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crti.o
-                0x000000000800364c                _init
- .init          0x0000000008003650        0x8 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x00000000080036a4        0x4 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crti.o
+                0x00000000080036a4                _init
+ .init          0x00000000080036a8        0x8 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x0000000008003658        0x4 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crti.o
-                0x0000000008003658                _fini
- .fini          0x000000000800365c        0x8 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtn.o
-                0x0000000008003664                . = ALIGN (0x4)
-                0x0000000008003664                _etext = .
+ .fini          0x00000000080036b0        0x4 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crti.o
+                0x00000000080036b0                _fini
+ .fini          0x00000000080036b4        0x8 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtn.o
+                0x00000000080036bc                . = ALIGN (0x4)
+                0x00000000080036bc                _etext = .
 
-.vfp11_veneer   0x0000000008003664        0x0
- .vfp11_veneer  0x0000000008003664        0x0 linker stubs
+.vfp11_veneer   0x00000000080036bc        0x0
+ .vfp11_veneer  0x00000000080036bc        0x0 linker stubs
 
-.v4_bx          0x0000000008003664        0x0
- .v4_bx         0x0000000008003664        0x0 linker stubs
+.v4_bx          0x00000000080036bc        0x0
+ .v4_bx         0x00000000080036bc        0x0 linker stubs
 
-.iplt           0x0000000008003664        0x0
- .iplt          0x0000000008003664        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x00000000080036bc        0x0
+ .iplt          0x00000000080036bc        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x0000000008003664       0x84
-                0x0000000008003664                . = ALIGN (0x4)
+.rodata         0x00000000080036bc       0x84
+                0x00000000080036bc                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0000000008003664       0x42 ./Core/Src/application.o
- *fill*         0x00000000080036a6        0x2 
- .rodata        0x00000000080036a8       0x10 ./Libraries/keypad_driver/src/keypad_driver.o
- .rodata        0x00000000080036b8        0x3 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+ .rodata        0x00000000080036bc       0x42 ./Core/Src/application.o
+ *fill*         0x00000000080036fe        0x2 
+ .rodata        0x0000000008003700       0x10 ./Libraries/keypad_driver/src/keypad_driver.o
+ .rodata        0x0000000008003710        0x3 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
  *(.rodata*)
- *fill*         0x00000000080036bb        0x1 
+ *fill*         0x0000000008003713        0x1 
  .rodata.AHBPrescTable
-                0x00000000080036bc       0x10 ./Core/Src/system_stm32f1xx.o
-                0x00000000080036bc                AHBPrescTable
+                0x0000000008003714       0x10 ./Core/Src/system_stm32f1xx.o
+                0x0000000008003714                AHBPrescTable
  .rodata.APBPrescTable
-                0x00000000080036cc        0x8 ./Core/Src/system_stm32f1xx.o
-                0x00000000080036cc                APBPrescTable
+                0x0000000008003724        0x8 ./Core/Src/system_stm32f1xx.o
+                0x0000000008003724                APBPrescTable
  .rodata.aPLLMULFactorTable.1
-                0x00000000080036d4       0x10 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+                0x000000000800372c       0x10 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
  .rodata.aPredivFactorTable.0
-                0x00000000080036e4        0x2 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
-                0x00000000080036e8                . = ALIGN (0x4)
- *fill*         0x00000000080036e6        0x2 
+                0x000000000800373c        0x2 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+                0x0000000008003740                . = ALIGN (0x4)
+ *fill*         0x000000000800373e        0x2 
 
-.rel.dyn        0x00000000080036e8        0x0
- .rel.iplt      0x00000000080036e8        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x0000000008003740        0x0
+ .rel.iplt      0x0000000008003740        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.ARM.extab      0x00000000080036e8        0x0
-                0x00000000080036e8                . = ALIGN (0x4)
+.ARM.extab      0x0000000008003740        0x0
+                0x0000000008003740                . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00000000080036e8                . = ALIGN (0x4)
+                0x0000000008003740                . = ALIGN (0x4)
 
-.ARM            0x00000000080036e8        0x0
-                0x00000000080036e8                . = ALIGN (0x4)
-                0x00000000080036e8                __exidx_start = .
+.ARM            0x0000000008003740        0x0
+                0x0000000008003740                . = ALIGN (0x4)
+                0x0000000008003740                __exidx_start = .
  *(.ARM.exidx*)
-                0x00000000080036e8                __exidx_end = .
-                0x00000000080036e8                . = ALIGN (0x4)
+                0x0000000008003740                __exidx_end = .
+                0x0000000008003740                . = ALIGN (0x4)
 
-.preinit_array  0x00000000080036e8        0x0
-                0x00000000080036e8                . = ALIGN (0x4)
-                0x00000000080036e8                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008003740        0x0
+                0x0000000008003740                . = ALIGN (0x4)
+                0x0000000008003740                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x00000000080036e8                PROVIDE (__preinit_array_end = .)
-                0x00000000080036e8                . = ALIGN (0x4)
+                0x0000000008003740                PROVIDE (__preinit_array_end = .)
+                0x0000000008003740                . = ALIGN (0x4)
 
-.init_array     0x00000000080036e8        0x4
-                0x00000000080036e8                . = ALIGN (0x4)
-                0x00000000080036e8                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008003740        0x4
+                0x0000000008003740                . = ALIGN (0x4)
+                0x0000000008003740                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x00000000080036e8        0x4 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x00000000080036ec                PROVIDE (__init_array_end = .)
-                0x00000000080036ec                . = ALIGN (0x4)
+ .init_array    0x0000000008003740        0x4 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x0000000008003744                PROVIDE (__init_array_end = .)
+                0x0000000008003744                . = ALIGN (0x4)
 
-.fini_array     0x00000000080036ec        0x4
-                0x00000000080036ec                . = ALIGN (0x4)
+.fini_array     0x0000000008003744        0x4
+                0x0000000008003744                . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x00000000080036ec        0x4 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
+ .fini_array    0x0000000008003744        0x4 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x00000000080036f0                . = ALIGN (0x4)
-                0x00000000080036f0                _sidata = LOADADDR (.data)
+                0x0000000008003748                . = ALIGN (0x4)
+                0x0000000008003748                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000        0xc load address 0x00000000080036f0
+.data           0x0000000020000000        0xc load address 0x0000000008003748
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -3404,11 +3484,11 @@ LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  *fill*         0x0000000020000009        0x3 
                 0x000000002000000c                _edata = .
 
-.igot.plt       0x000000002000000c        0x0 load address 0x00000000080036fc
+.igot.plt       0x000000002000000c        0x0 load address 0x0000000008003754
  .igot.plt      0x000000002000000c        0x0 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtbegin.o
                 0x000000002000000c                . = ALIGN (0x4)
 
-.bss            0x000000002000000c       0xd8 load address 0x00000000080036fc
+.bss            0x000000002000000c       0xd8 load address 0x0000000008003754
                 0x000000002000000c                _sbss = .
                 0x000000002000000c                __bss_start__ = _sbss
  *(.bss)
@@ -3436,7 +3516,7 @@ LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
                 0x00000000200000e4                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x00000000200000e4      0x604 load address 0x00000000080036fc
+                0x00000000200000e4      0x604 load address 0x0000000008003754
                 0x00000000200000e8                . = ALIGN (0x8)
  *fill*         0x00000000200000e4        0x4 
                 [!provide]                        PROVIDE (end = .)
@@ -3490,13 +3570,15 @@ LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .ARM.attributes
                 0x00000000000002b4       0x2d ./Libraries/misc/src/misc.o
  .ARM.attributes
-                0x00000000000002e1       0x2d ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x00000000000002e1       0x2d ./Libraries/password_manager/src/password_manager.o
  .ARM.attributes
-                0x000000000000030e       0x2d C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-memset.o)
+                0x000000000000030e       0x2d ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
  .ARM.attributes
-                0x000000000000033b       0x2d C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+                0x000000000000033b       0x2d C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-memset.o)
  .ARM.attributes
-                0x0000000000000368       0x1d C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtn.o
+                0x0000000000000368       0x2d C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+ .ARM.attributes
+                0x0000000000000395       0x1d C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/thumb/v7-m/nofp/crtn.o
 OUTPUT(smart_door_lock.elf elf32-littlearm)
 LOAD linker stubs
 LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a
@@ -3520,243 +3602,255 @@ LOAD C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .comment       0x0000000000000043       0x44 ./Libraries/keypad_driver/src/keypad_driver.o
  .comment       0x0000000000000043       0x44 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
  .comment       0x0000000000000043       0x44 ./Libraries/misc/src/misc.o
+ .comment       0x0000000000000043       0x44 ./Libraries/password_manager/src/password_manager.o
  .comment       0x0000000000000043       0x44 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
 
-.debug_info     0x0000000000000000     0x9c26
- .debug_info    0x0000000000000000      0xaae ./Core/Src/application.o
- .debug_info    0x0000000000000aae      0xc6b ./Core/Src/main.o
- .debug_info    0x0000000000001719      0xb48 ./Core/Src/stm32f1xx_hal_msp.o
- .debug_info    0x0000000000002261      0x113 ./Core/Src/stm32f1xx_it.o
- .debug_info    0x0000000000002374      0x222 ./Core/Src/system_stm32f1xx.o
- .debug_info    0x0000000000002596       0x23 ./Core/Startup/startup_stm32f103c8tx.o
- .debug_info    0x00000000000025b9      0x704 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_info    0x0000000000002cbd      0xa87 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_info    0x0000000000003744      0x5ab ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_info    0x0000000000003cef     0x2515 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
- .debug_info    0x0000000000006204      0x7d5 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_info    0x00000000000069d9     0x1503 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
- .debug_info    0x0000000000007edc      0x2a7 ./Libraries/keypad_driver/src/keypad_driver.o
- .debug_info    0x0000000000008183      0x814 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
- .debug_info    0x0000000000008997       0xce ./Libraries/misc/src/misc.o
- .debug_info    0x0000000000008a65     0x11c1 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+.debug_info     0x0000000000000000     0x9ddb
+ .debug_info    0x0000000000000000      0xb25 ./Core/Src/application.o
+ .debug_info    0x0000000000000b25      0xc6b ./Core/Src/main.o
+ .debug_info    0x0000000000001790      0xb48 ./Core/Src/stm32f1xx_hal_msp.o
+ .debug_info    0x00000000000022d8      0x113 ./Core/Src/stm32f1xx_it.o
+ .debug_info    0x00000000000023eb      0x222 ./Core/Src/system_stm32f1xx.o
+ .debug_info    0x000000000000260d       0x23 ./Core/Startup/startup_stm32f103c8tx.o
+ .debug_info    0x0000000000002630      0x704 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_info    0x0000000000002d34      0xa87 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_info    0x00000000000037bb      0x5ab ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_info    0x0000000000003d66     0x2515 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_info    0x000000000000627b      0x7d5 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_info    0x0000000000006a50     0x1503 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
+ .debug_info    0x0000000000007f53      0x2a7 ./Libraries/keypad_driver/src/keypad_driver.o
+ .debug_info    0x00000000000081fa      0x814 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+ .debug_info    0x0000000000008a0e       0xce ./Libraries/misc/src/misc.o
+ .debug_info    0x0000000000008adc      0x13e ./Libraries/password_manager/src/password_manager.o
+ .debug_info    0x0000000000008c1a     0x11c1 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
 
-.debug_abbrev   0x0000000000000000     0x1d9f
- .debug_abbrev  0x0000000000000000      0x24e ./Core/Src/application.o
- .debug_abbrev  0x000000000000024e      0x22f ./Core/Src/main.o
- .debug_abbrev  0x000000000000047d      0x1a5 ./Core/Src/stm32f1xx_hal_msp.o
- .debug_abbrev  0x0000000000000622       0x73 ./Core/Src/stm32f1xx_it.o
- .debug_abbrev  0x0000000000000695      0x13f ./Core/Src/system_stm32f1xx.o
- .debug_abbrev  0x00000000000007d4       0x12 ./Core/Startup/startup_stm32f103c8tx.o
- .debug_abbrev  0x00000000000007e6      0x201 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_abbrev  0x00000000000009e7      0x2f8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_abbrev  0x0000000000000cdf      0x1ca ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_abbrev  0x0000000000000ea9      0x2a3 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
- .debug_abbrev  0x000000000000114c      0x2b3 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_abbrev  0x00000000000013ff      0x284 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
- .debug_abbrev  0x0000000000001683      0x127 ./Libraries/keypad_driver/src/keypad_driver.o
- .debug_abbrev  0x00000000000017aa      0x1e6 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
- .debug_abbrev  0x0000000000001990       0x8b ./Libraries/misc/src/misc.o
- .debug_abbrev  0x0000000000001a1b      0x384 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+.debug_abbrev   0x0000000000000000     0x1e46
+ .debug_abbrev  0x0000000000000000      0x232 ./Core/Src/application.o
+ .debug_abbrev  0x0000000000000232      0x22f ./Core/Src/main.o
+ .debug_abbrev  0x0000000000000461      0x1a5 ./Core/Src/stm32f1xx_hal_msp.o
+ .debug_abbrev  0x0000000000000606       0x73 ./Core/Src/stm32f1xx_it.o
+ .debug_abbrev  0x0000000000000679      0x13f ./Core/Src/system_stm32f1xx.o
+ .debug_abbrev  0x00000000000007b8       0x12 ./Core/Startup/startup_stm32f103c8tx.o
+ .debug_abbrev  0x00000000000007ca      0x201 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_abbrev  0x00000000000009cb      0x2f8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_abbrev  0x0000000000000cc3      0x1ca ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_abbrev  0x0000000000000e8d      0x2a3 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_abbrev  0x0000000000001130      0x2b3 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_abbrev  0x00000000000013e3      0x284 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
+ .debug_abbrev  0x0000000000001667      0x127 ./Libraries/keypad_driver/src/keypad_driver.o
+ .debug_abbrev  0x000000000000178e      0x1e6 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+ .debug_abbrev  0x0000000000001974       0x8b ./Libraries/misc/src/misc.o
+ .debug_abbrev  0x00000000000019ff       0xc3 ./Libraries/password_manager/src/password_manager.o
+ .debug_abbrev  0x0000000000001ac2      0x384 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
 
-.debug_aranges  0x0000000000000000      0xa30
+.debug_aranges  0x0000000000000000      0xa50
  .debug_aranges
-                0x0000000000000000       0x38 ./Core/Src/application.o
+                0x0000000000000000       0x30 ./Core/Src/application.o
  .debug_aranges
-                0x0000000000000038       0x48 ./Core/Src/main.o
+                0x0000000000000030       0x48 ./Core/Src/main.o
  .debug_aranges
-                0x0000000000000080       0x40 ./Core/Src/stm32f1xx_hal_msp.o
+                0x0000000000000078       0x40 ./Core/Src/stm32f1xx_hal_msp.o
  .debug_aranges
-                0x00000000000000c0       0x60 ./Core/Src/stm32f1xx_it.o
+                0x00000000000000b8       0x60 ./Core/Src/stm32f1xx_it.o
  .debug_aranges
-                0x0000000000000120       0x28 ./Core/Src/system_stm32f1xx.o
+                0x0000000000000118       0x28 ./Core/Src/system_stm32f1xx.o
  .debug_aranges
-                0x0000000000000148       0x28 ./Core/Startup/startup_stm32f103c8tx.o
+                0x0000000000000140       0x28 ./Core/Startup/startup_stm32f103c8tx.o
  .debug_aranges
-                0x0000000000000170       0xe0 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+                0x0000000000000168       0xe0 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
  .debug_aranges
-                0x0000000000000250      0x100 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+                0x0000000000000248      0x100 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
  .debug_aranges
-                0x0000000000000350       0x58 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+                0x0000000000000348       0x58 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
  .debug_aranges
-                0x00000000000003a8      0x2a8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+                0x00000000000003a0      0x2a8 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
  .debug_aranges
-                0x0000000000000650       0x90 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+                0x0000000000000648       0x90 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
  .debug_aranges
-                0x00000000000006e0      0x1d0 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
+                0x00000000000006d8      0x1d0 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
  .debug_aranges
-                0x00000000000008b0       0x30 ./Libraries/keypad_driver/src/keypad_driver.o
+                0x00000000000008a8       0x30 ./Libraries/keypad_driver/src/keypad_driver.o
  .debug_aranges
-                0x00000000000008e0       0x68 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+                0x00000000000008d8       0x68 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
  .debug_aranges
-                0x0000000000000948       0x20 ./Libraries/misc/src/misc.o
+                0x0000000000000940       0x20 ./Libraries/misc/src/misc.o
  .debug_aranges
-                0x0000000000000968       0xc8 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x0000000000000960       0x28 ./Libraries/password_manager/src/password_manager.o
+ .debug_aranges
+                0x0000000000000988       0xc8 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
 
 .debug_rnglists
-                0x0000000000000000      0x7c1
+                0x0000000000000000      0x7d5
  .debug_rnglists
-                0x0000000000000000       0x26 ./Core/Src/application.o
+                0x0000000000000000       0x21 ./Core/Src/application.o
  .debug_rnglists
-                0x0000000000000026       0x32 ./Core/Src/main.o
+                0x0000000000000021       0x32 ./Core/Src/main.o
  .debug_rnglists
-                0x0000000000000058       0x2d ./Core/Src/stm32f1xx_hal_msp.o
+                0x0000000000000053       0x2d ./Core/Src/stm32f1xx_hal_msp.o
  .debug_rnglists
-                0x0000000000000085       0x43 ./Core/Src/stm32f1xx_it.o
+                0x0000000000000080       0x43 ./Core/Src/stm32f1xx_it.o
  .debug_rnglists
-                0x00000000000000c8       0x1a ./Core/Src/system_stm32f1xx.o
+                0x00000000000000c3       0x1a ./Core/Src/system_stm32f1xx.o
  .debug_rnglists
-                0x00000000000000e2       0x19 ./Core/Startup/startup_stm32f103c8tx.o
+                0x00000000000000dd       0x19 ./Core/Startup/startup_stm32f103c8tx.o
  .debug_rnglists
-                0x00000000000000fb       0xa3 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+                0x00000000000000f6       0xa3 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
  .debug_rnglists
-                0x000000000000019e       0xbb ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+                0x0000000000000199       0xbb ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
  .debug_rnglists
-                0x0000000000000259       0x3f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+                0x0000000000000254       0x3f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
  .debug_rnglists
-                0x0000000000000298      0x23c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+                0x0000000000000293      0x23c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
  .debug_rnglists
-                0x00000000000004d4       0x6c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+                0x00000000000004cf       0x6c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
  .debug_rnglists
-                0x0000000000000540      0x16e ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
+                0x000000000000053b      0x16e ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
  .debug_rnglists
-                0x00000000000006ae       0x20 ./Libraries/keypad_driver/src/keypad_driver.o
+                0x00000000000006a9       0x20 ./Libraries/keypad_driver/src/keypad_driver.o
  .debug_rnglists
-                0x00000000000006ce       0x4a ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+                0x00000000000006c9       0x4a ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
  .debug_rnglists
-                0x0000000000000718       0x13 ./Libraries/misc/src/misc.o
+                0x0000000000000713       0x13 ./Libraries/misc/src/misc.o
  .debug_rnglists
-                0x000000000000072b       0x96 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+                0x0000000000000726       0x19 ./Libraries/password_manager/src/password_manager.o
+ .debug_rnglists
+                0x000000000000073f       0x96 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
 
-.debug_macro    0x0000000000000000    0x16c0a
- .debug_macro   0x0000000000000000      0x1e4 ./Core/Src/application.o
- .debug_macro   0x00000000000001e4      0xa9c ./Core/Src/application.o
- .debug_macro   0x0000000000000c80       0x22 ./Core/Src/application.o
- .debug_macro   0x0000000000000ca2       0x8e ./Core/Src/application.o
- .debug_macro   0x0000000000000d30       0x51 ./Core/Src/application.o
- .debug_macro   0x0000000000000d81      0x103 ./Core/Src/application.o
- .debug_macro   0x0000000000000e84       0x6a ./Core/Src/application.o
- .debug_macro   0x0000000000000eee      0x1df ./Core/Src/application.o
- .debug_macro   0x00000000000010cd       0x22 ./Core/Src/application.o
- .debug_macro   0x00000000000010ef      0x21b ./Core/Src/application.o
- .debug_macro   0x000000000000130a       0x2e ./Core/Src/application.o
- .debug_macro   0x0000000000001338       0x22 ./Core/Src/application.o
- .debug_macro   0x000000000000135a       0x1c ./Core/Src/application.o
- .debug_macro   0x0000000000001376       0x22 ./Core/Src/application.o
- .debug_macro   0x0000000000001398       0xbd ./Core/Src/application.o
- .debug_macro   0x0000000000001455      0xd23 ./Core/Src/application.o
- .debug_macro   0x0000000000002178     0xe09e ./Core/Src/application.o
- .debug_macro   0x0000000000010216       0x6d ./Core/Src/application.o
- .debug_macro   0x0000000000010283     0x348d ./Core/Src/application.o
- .debug_macro   0x0000000000013710      0x174 ./Core/Src/application.o
- .debug_macro   0x0000000000013884       0x5c ./Core/Src/application.o
- .debug_macro   0x00000000000138e0      0x5bc ./Core/Src/application.o
- .debug_macro   0x0000000000013e9c      0x289 ./Core/Src/application.o
- .debug_macro   0x0000000000014125      0x1cb ./Core/Src/application.o
- .debug_macro   0x00000000000142f0      0x114 ./Core/Src/application.o
- .debug_macro   0x0000000000014404      0x1b2 ./Core/Src/application.o
- .debug_macro   0x00000000000145b6       0x27 ./Core/Src/application.o
- .debug_macro   0x00000000000145dd      0x136 ./Core/Src/application.o
- .debug_macro   0x0000000000014713      0x1bc ./Core/Src/application.o
- .debug_macro   0x00000000000148cf       0x34 ./Core/Src/application.o
- .debug_macro   0x0000000000014903       0x3c ./Core/Src/application.o
- .debug_macro   0x000000000001493f       0x57 ./Core/Src/application.o
- .debug_macro   0x0000000000014996       0x87 ./Core/Src/application.o
- .debug_macro   0x0000000000014a1d      0x240 ./Core/Src/application.o
- .debug_macro   0x0000000000014c5d      0x287 ./Core/Src/application.o
- .debug_macro   0x0000000000014ee4      0x140 ./Core/Src/application.o
- .debug_macro   0x0000000000015024      0x217 ./Core/Src/application.o
- .debug_macro   0x000000000001523b       0x83 ./Core/Src/application.o
- .debug_macro   0x00000000000152be       0x16 ./Core/Src/application.o
- .debug_macro   0x00000000000152d4       0x1c ./Core/Src/application.o
- .debug_macro   0x00000000000152f0       0x5e ./Core/Src/application.o
- .debug_macro   0x000000000001534e      0x1e4 ./Core/Src/main.o
- .debug_macro   0x0000000000015532      0x1a2 ./Core/Src/stm32f1xx_hal_msp.o
- .debug_macro   0x00000000000156d4      0x1ac ./Core/Src/stm32f1xx_it.o
- .debug_macro   0x0000000000015880      0x198 ./Core/Src/system_stm32f1xx.o
- .debug_macro   0x0000000000015a18      0x1bc ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_macro   0x0000000000015bd4      0x198 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_macro   0x0000000000015d6c      0x203 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_macro   0x0000000000015f6f      0x1e6 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
- .debug_macro   0x0000000000016155      0x1aa ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_macro   0x00000000000162ff      0x1a0 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
- .debug_macro   0x000000000001649f      0x1ba ./Libraries/keypad_driver/src/keypad_driver.o
- .debug_macro   0x0000000000016659       0x10 ./Libraries/keypad_driver/src/keypad_driver.o
- .debug_macro   0x0000000000016669      0x1c4 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
- .debug_macro   0x000000000001682d       0x58 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
- .debug_macro   0x0000000000016885      0x1b5 ./Libraries/misc/src/misc.o
- .debug_macro   0x0000000000016a3a      0x1ba ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
- .debug_macro   0x0000000000016bf4       0x16 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+.debug_macro    0x0000000000000000    0x16dd3
+ .debug_macro   0x0000000000000000      0x1ee ./Core/Src/application.o
+ .debug_macro   0x00000000000001ee      0xa9c ./Core/Src/application.o
+ .debug_macro   0x0000000000000c8a       0x22 ./Core/Src/application.o
+ .debug_macro   0x0000000000000cac       0x8e ./Core/Src/application.o
+ .debug_macro   0x0000000000000d3a       0x51 ./Core/Src/application.o
+ .debug_macro   0x0000000000000d8b      0x103 ./Core/Src/application.o
+ .debug_macro   0x0000000000000e8e       0x6a ./Core/Src/application.o
+ .debug_macro   0x0000000000000ef8      0x1df ./Core/Src/application.o
+ .debug_macro   0x00000000000010d7       0x22 ./Core/Src/application.o
+ .debug_macro   0x00000000000010f9      0x21b ./Core/Src/application.o
+ .debug_macro   0x0000000000001314       0x2e ./Core/Src/application.o
+ .debug_macro   0x0000000000001342       0x22 ./Core/Src/application.o
+ .debug_macro   0x0000000000001364       0x1c ./Core/Src/application.o
+ .debug_macro   0x0000000000001380       0x22 ./Core/Src/application.o
+ .debug_macro   0x00000000000013a2       0xbd ./Core/Src/application.o
+ .debug_macro   0x000000000000145f      0xd23 ./Core/Src/application.o
+ .debug_macro   0x0000000000002182     0xe09e ./Core/Src/application.o
+ .debug_macro   0x0000000000010220       0x6d ./Core/Src/application.o
+ .debug_macro   0x000000000001028d     0x348d ./Core/Src/application.o
+ .debug_macro   0x000000000001371a      0x174 ./Core/Src/application.o
+ .debug_macro   0x000000000001388e       0x5c ./Core/Src/application.o
+ .debug_macro   0x00000000000138ea      0x5bc ./Core/Src/application.o
+ .debug_macro   0x0000000000013ea6      0x289 ./Core/Src/application.o
+ .debug_macro   0x000000000001412f      0x1cb ./Core/Src/application.o
+ .debug_macro   0x00000000000142fa      0x114 ./Core/Src/application.o
+ .debug_macro   0x000000000001440e      0x1b2 ./Core/Src/application.o
+ .debug_macro   0x00000000000145c0       0x27 ./Core/Src/application.o
+ .debug_macro   0x00000000000145e7      0x136 ./Core/Src/application.o
+ .debug_macro   0x000000000001471d      0x1bc ./Core/Src/application.o
+ .debug_macro   0x00000000000148d9       0x34 ./Core/Src/application.o
+ .debug_macro   0x000000000001490d       0x3c ./Core/Src/application.o
+ .debug_macro   0x0000000000014949       0x57 ./Core/Src/application.o
+ .debug_macro   0x00000000000149a0       0x87 ./Core/Src/application.o
+ .debug_macro   0x0000000000014a27      0x240 ./Core/Src/application.o
+ .debug_macro   0x0000000000014c67      0x287 ./Core/Src/application.o
+ .debug_macro   0x0000000000014eee      0x140 ./Core/Src/application.o
+ .debug_macro   0x000000000001502e      0x217 ./Core/Src/application.o
+ .debug_macro   0x0000000000015245       0x83 ./Core/Src/application.o
+ .debug_macro   0x00000000000152c8       0x16 ./Core/Src/application.o
+ .debug_macro   0x00000000000152de       0x1c ./Core/Src/application.o
+ .debug_macro   0x00000000000152fa       0x5e ./Core/Src/application.o
+ .debug_macro   0x0000000000015358      0x1ee ./Core/Src/main.o
+ .debug_macro   0x0000000000015546      0x1a2 ./Core/Src/stm32f1xx_hal_msp.o
+ .debug_macro   0x00000000000156e8      0x1ac ./Core/Src/stm32f1xx_it.o
+ .debug_macro   0x0000000000015894      0x198 ./Core/Src/system_stm32f1xx.o
+ .debug_macro   0x0000000000015a2c      0x1bc ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_macro   0x0000000000015be8      0x198 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_macro   0x0000000000015d80      0x203 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_macro   0x0000000000015f83      0x1e6 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_macro   0x0000000000016169      0x1aa ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_macro   0x0000000000016313      0x1a0 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
+ .debug_macro   0x00000000000164b3      0x1ba ./Libraries/keypad_driver/src/keypad_driver.o
+ .debug_macro   0x000000000001666d       0x10 ./Libraries/keypad_driver/src/keypad_driver.o
+ .debug_macro   0x000000000001667d      0x1c4 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+ .debug_macro   0x0000000000016841       0x58 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+ .debug_macro   0x0000000000016899      0x1b5 ./Libraries/misc/src/misc.o
+ .debug_macro   0x0000000000016a4e      0x1b5 ./Libraries/password_manager/src/password_manager.o
+ .debug_macro   0x0000000000016c03      0x1ba ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+ .debug_macro   0x0000000000016dbd       0x16 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
 
-.debug_line     0x0000000000000000     0xd51a
- .debug_line    0x0000000000000000      0xa0b ./Core/Src/application.o
- .debug_line    0x0000000000000a0b      0x9f8 ./Core/Src/main.o
- .debug_line    0x0000000000001403      0x781 ./Core/Src/stm32f1xx_hal_msp.o
- .debug_line    0x0000000000001b84      0x7a4 ./Core/Src/stm32f1xx_it.o
- .debug_line    0x0000000000002328      0x760 ./Core/Src/system_stm32f1xx.o
- .debug_line    0x0000000000002a88       0x78 ./Core/Startup/startup_stm32f103c8tx.o
- .debug_line    0x0000000000002b00      0x98d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_line    0x000000000000348d      0xb75 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_line    0x0000000000004002      0xa26 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_line    0x0000000000004a28     0x3b04 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
- .debug_line    0x000000000000852c      0xd96 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_line    0x00000000000092c2     0x1c15 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
- .debug_line    0x000000000000aed7      0x854 ./Libraries/keypad_driver/src/keypad_driver.o
- .debug_line    0x000000000000b72b      0x92e ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
- .debug_line    0x000000000000c059      0x752 ./Libraries/misc/src/misc.o
- .debug_line    0x000000000000c7ab      0xd6f ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+.debug_line     0x0000000000000000     0xdde1
+ .debug_line    0x0000000000000000      0xa61 ./Core/Src/application.o
+ .debug_line    0x0000000000000a61      0xa6e ./Core/Src/main.o
+ .debug_line    0x00000000000014cf      0x781 ./Core/Src/stm32f1xx_hal_msp.o
+ .debug_line    0x0000000000001c50      0x7a4 ./Core/Src/stm32f1xx_it.o
+ .debug_line    0x00000000000023f4      0x760 ./Core/Src/system_stm32f1xx.o
+ .debug_line    0x0000000000002b54       0x78 ./Core/Startup/startup_stm32f103c8tx.o
+ .debug_line    0x0000000000002bcc      0x98d ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_line    0x0000000000003559      0xb75 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_line    0x00000000000040ce      0xa26 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_line    0x0000000000004af4     0x3b04 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_line    0x00000000000085f8      0xd96 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_line    0x000000000000938e     0x1c15 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
+ .debug_line    0x000000000000afa3      0x854 ./Libraries/keypad_driver/src/keypad_driver.o
+ .debug_line    0x000000000000b7f7      0x92e ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+ .debug_line    0x000000000000c125      0x752 ./Libraries/misc/src/misc.o
+ .debug_line    0x000000000000c877      0x7fb ./Libraries/password_manager/src/password_manager.o
+ .debug_line    0x000000000000d072      0xd6f ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
 
-.debug_str      0x0000000000000000    0x80fbb
- .debug_str     0x0000000000000000    0x7e029 ./Core/Src/application.o
-                                      0x7e454 (size before relaxing)
- .debug_str     0x000000000007e029      0x2c7 ./Core/Src/main.o
-                                      0x7e447 (size before relaxing)
- .debug_str     0x000000000007e2f0       0xb8 ./Core/Src/stm32f1xx_hal_msp.o
+.debug_str      0x0000000000000000    0x81053
+ .debug_str     0x0000000000000000    0x7e06d ./Core/Src/application.o
+                                      0x7e4a7 (size before relaxing)
+ .debug_str     0x000000000007e06d      0x2c7 ./Core/Src/main.o
+                                      0x7e460 (size before relaxing)
+ .debug_str     0x000000000007e334       0xb8 ./Core/Src/stm32f1xx_hal_msp.o
                                       0x7e079 (size before relaxing)
- .debug_str     0x000000000007e3a8       0xc9 ./Core/Src/stm32f1xx_it.o
+ .debug_str     0x000000000007e3ec       0xc9 ./Core/Src/stm32f1xx_it.o
                                       0x7d99b (size before relaxing)
- .debug_str     0x000000000007e471       0x7e ./Core/Src/system_stm32f1xx.o
+ .debug_str     0x000000000007e4b5       0x7e ./Core/Src/system_stm32f1xx.o
                                       0x7d9b1 (size before relaxing)
- .debug_str     0x000000000007e4ef       0x34 ./Core/Startup/startup_stm32f103c8tx.o
+ .debug_str     0x000000000007e533       0x34 ./Core/Startup/startup_stm32f103c8tx.o
                                          0x7b (size before relaxing)
- .debug_str     0x000000000007e523      0x607 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_str     0x000000000007e567      0x607 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
                                       0x7e0e4 (size before relaxing)
- .debug_str     0x000000000007eb2a      0x2bb ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_str     0x000000000007eb6e      0x2bb ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
                                       0x7e030 (size before relaxing)
- .debug_str     0x000000000007ede5      0x2e6 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_str     0x000000000007ee29      0x2e6 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
                                       0x7dd37 (size before relaxing)
- .debug_str     0x000000000007f0cb      0xbda ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_str     0x000000000007f10f      0xbda ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
                                       0x7ea78 (size before relaxing)
- .debug_str     0x000000000007fca5      0x209 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_str     0x000000000007fce9      0x209 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
                                       0x7dde0 (size before relaxing)
- .debug_str     0x000000000007feae      0x52f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
+ .debug_str     0x000000000007fef2      0x52f ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
                                       0x7e2dd (size before relaxing)
- .debug_str     0x00000000000803dd       0xd1 ./Libraries/keypad_driver/src/keypad_driver.o
+ .debug_str     0x0000000000080421       0xd1 ./Libraries/keypad_driver/src/keypad_driver.o
                                       0x7dabc (size before relaxing)
- .debug_str     0x00000000000804ae      0x165 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+ .debug_str     0x00000000000804f2      0x165 ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
                                       0x7e179 (size before relaxing)
- .debug_str     0x0000000000080613       0x2c ./Libraries/misc/src/misc.o
+ .debug_str     0x0000000000080657       0x2c ./Libraries/misc/src/misc.o
                                       0x7d990 (size before relaxing)
- .debug_str     0x000000000008063f      0x97c ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+ .debug_str     0x0000000000080683       0x45 ./Libraries/password_manager/src/password_manager.o
+                                      0x7d9f0 (size before relaxing)
+ .debug_str     0x00000000000806c8      0x98b ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
                                       0x7e94c (size before relaxing)
 
-.debug_frame    0x0000000000000000     0x28ac
- .debug_frame   0x0000000000000000       0xa4 ./Core/Src/application.o
- .debug_frame   0x00000000000000a4       0xc4 ./Core/Src/main.o
- .debug_frame   0x0000000000000168       0xc8 ./Core/Src/stm32f1xx_hal_msp.o
- .debug_frame   0x0000000000000230      0x104 ./Core/Src/stm32f1xx_it.o
- .debug_frame   0x0000000000000334       0x58 ./Core/Src/system_stm32f1xx.o
- .debug_frame   0x000000000000038c      0x334 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
- .debug_frame   0x00000000000006c0      0x428 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
- .debug_frame   0x0000000000000ae8      0x14c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
- .debug_frame   0x0000000000000c34      0xc84 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
- .debug_frame   0x00000000000018b8      0x218 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
- .debug_frame   0x0000000000001ad0      0x824 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
- .debug_frame   0x00000000000022f4       0x84 ./Libraries/keypad_driver/src/keypad_driver.o
- .debug_frame   0x0000000000002378      0x17c ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
- .debug_frame   0x00000000000024f4       0x34 ./Libraries/misc/src/misc.o
- .debug_frame   0x0000000000002528      0x338 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
- .debug_frame   0x0000000000002860       0x20 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-memset.o)
- .debug_frame   0x0000000000002880       0x2c C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
+.debug_frame    0x0000000000000000     0x28e8
+ .debug_frame   0x0000000000000000       0x80 ./Core/Src/application.o
+ .debug_frame   0x0000000000000080       0xc4 ./Core/Src/main.o
+ .debug_frame   0x0000000000000144       0xc8 ./Core/Src/stm32f1xx_hal_msp.o
+ .debug_frame   0x000000000000020c      0x104 ./Core/Src/stm32f1xx_it.o
+ .debug_frame   0x0000000000000310       0x58 ./Core/Src/system_stm32f1xx.o
+ .debug_frame   0x0000000000000368      0x334 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.o
+ .debug_frame   0x000000000000069c      0x428 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o
+ .debug_frame   0x0000000000000ac4      0x14c ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.o
+ .debug_frame   0x0000000000000c10      0xc84 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_i2c.o
+ .debug_frame   0x0000000000001894      0x218 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.o
+ .debug_frame   0x0000000000001aac      0x824 ./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.o
+ .debug_frame   0x00000000000022d0       0x84 ./Libraries/keypad_driver/src/keypad_driver.o
+ .debug_frame   0x0000000000002354      0x17c ./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o
+ .debug_frame   0x00000000000024d0       0x34 ./Libraries/misc/src/misc.o
+ .debug_frame   0x0000000000002504       0x60 ./Libraries/password_manager/src/password_manager.o
+ .debug_frame   0x0000000000002564      0x338 ./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o
+ .debug_frame   0x000000000000289c       0x20 C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-memset.o)
+ .debug_frame   0x00000000000028bc       0x2c C:/ST/STM32CubeIDE_1.13.2/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.externaltools.gnu-tools-for-stm32.11.3.rel1.win32_1.1.1.202309131626/tools/bin/../lib/gcc/arm-none-eabi/11.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc_nano.a(libc_a-init.o)
 
 .debug_line_str
                 0x0000000000000000       0x6f

@@ -7,6 +7,7 @@
 #include "main.h"
 
 #include "misc.h"
+#include "password_manager.h"
 #include "keypad_driver.h"
 #include "rfid_rc522_driver.h"
 #include "lcd_1602_i2c_driver.h"
