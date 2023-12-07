@@ -39,13 +39,13 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  17 .debug_macro  00016c0a  00000000  00000000  0002cc31  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_line   0000d517  00000000  00000000  0004383b  2**0
+ 18 .debug_line   0000d51a  00000000  00000000  0004383b  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .debug_str    00080fba  00000000  00000000  00050d52  2**0
+ 19 .debug_str    00080fbb  00000000  00000000  00050d55  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 20 .debug_frame  000028ac  00000000  00000000  000d1d0c  2**2
+ 20 .debug_frame  000028ac  00000000  00000000  000d1d10  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line_str 0000006f  00000000  00000000  000d45b8  2**0
+ 21 .debug_line_str 0000006f  00000000  00000000  000d45bc  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -432,9 +432,6 @@ static void input_password(void)
  8000378:	0800369c 	.word	0x0800369c
 
 0800037c <delete_password>:
-		gettick_delay_ms(delay_time_ms);
-}
-*/
 
 static void delete_password(char* input_password_array, uint8_t* password_index, uint8_t* input_password_count)
 {

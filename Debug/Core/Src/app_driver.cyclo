@@ -1,4 +1,0 @@
-../Core/Src/app_driver.c:13:6:app_loop	3
-../Core/Src/app_driver.c:35:13:check_uid_data	3
-../Core/Src/app_driver.c:58:13:input_password	7
-../Core/Src/app_driver.c:159:13:delete_password	2
