@@ -1,0 +1,4 @@
+../Core/Src/application.c:11:6:app_loop	3
+../Core/Src/application.c:33:13:check_uid_data	3
+../Core/Src/application.c:56:13:input_password	7
+../Core/Src/application.c:124:13:delete_password	2
