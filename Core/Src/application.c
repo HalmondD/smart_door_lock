@@ -39,9 +39,7 @@ void app_loop(SPI_HandleTypeDef* hspi2, I2C_HandleTypeDef* hi2c1)
 		{
 			lcd_1602_control_lcd_and_backlight(ENABLE);
 
-			//lcd_1602_i2c_set_cursor_position(1, 0);
-			lcd_1602_print_string("Wrong Card!", 1, 0);
-			lcd_1602_wait_and_clear(2000);
+			lcd_1602_print_full_screen("Wrong Card!", 1, 0, 2000);
 
 			lcd_1602_control_lcd_and_backlight(DISABLE);
 
@@ -62,7 +60,6 @@ static void input_password_t(struct password* master_password, struct password* 
 	{
 		lcd_1602_control_lcd_and_backlight(ENABLE);
 
-		//lcd_1602_i2c_set_cursor_position(1, 0);
 		lcd_1602_print_string("Input Password:", 1, 0);
 
 		lcd_1602_set_cursor_position(2, 0);
