@@ -2,9 +2,6 @@
 
 static void input_password_t(struct password* master_password, struct password* input_password);
 
-//static void welcome_lcd(struct UID* input_uid);
-//static uint8_t turn_nibble_to_ascii(uint8_t nibble_data);
-
 void app_loop(SPI_HandleTypeDef* hspi2, I2C_HandleTypeDef* hi2c1)
 {
 	struct UID input_uid;
@@ -86,7 +83,6 @@ static void input_password_t(struct password* master_password, struct password* 
 			}
 
 			input_password->data_array[input_password->count - 1] = gia_tri_phim_nhan;
-			//password_index++;
 
 			lcd_1602_i2c_write_data('*');
 
@@ -117,6 +113,9 @@ static void input_password_t(struct password* master_password, struct password* 
 	clear_display_and_print("Door Open", 2000);
 	control_lcd_and_backlight(DISABLE);
 }
+
+//static void welcome_lcd(struct UID* input_uid);
+//static uint8_t turn_nibble_to_ascii(uint8_t nibble_data);
 
 /*
 static void welcome_lcd(struct UID* input_uid)
