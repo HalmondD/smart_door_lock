@@ -15,26 +15,12 @@
 
 #include "misc.h"
 
-/*
-#define REGISTER_SELLECT        RD0
-#define INSTRUCTION_REGISTER    0
-#define DATA_REGISTER           1
-
-#define READ_OR_WRITE           RD1
-#define WRITE                   0
-#define READ                    1
-*/
-
 #define DEVICE_I2C_ADDRESS      (0X27 << 1)
 
 #define WRITE_INSTRUCTION       0X00
 #define WRITE_DATA              0X01
 
 #define LCD_ENABLE              0X04
-
-/*
-#define LCD_DATA_PORT           PORTB
-*/
 
 #define RESET_INIT_1            0X30
 #define RESET_INIT_2            0X20
@@ -75,17 +61,5 @@ void lcd_1602_clear_display();
 void lcd_1602_wait_and_clear(uint16_t delay_time_ms);
 void lcd_1602_print_string(const char string_array[], uint8_t vi_tri_cot, uint8_t vi_tri_hang);
 void lcd_1602_print_full_screen(const char string_array[], uint8_t vi_tri_cot, uint8_t vi_tri_hang, uint16_t delay_time_ms);
-
-/*
-void lcd_1602_i2c_init(I2C_HandleTypeDef* connect_mode);
-void lcd_1602_i2c_write_instruction(uint8_t lcd_instruction);
-void lcd_1602_i2c_write_data(uint8_t lcd_data);
-//void lcd_1602_i2c_print_string(uint8_t* string_array, uint8_t string_byte_count);
-void lcd_1602_i2c_print_string(const char string_array[]);
-void lcd_1602_i2c_set_cursor_position(uint8_t vi_tri_cot, uint8_t vi_tri_hang);
-void lcd_1602_i2c_control_backlight(uint8_t backlight_data);
-void control_lcd_and_backlight(bool control_state);
-void clear_display_and_print(const char string_array[], uint16_t delay_time_ms);
-*/
 
 #endif /* INC_LCD_1602_I2C_DRIVER_H_ */
