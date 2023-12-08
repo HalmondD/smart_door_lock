@@ -26,6 +26,7 @@ Core/Src/application.o: ../Core/Src/application.c \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h \
  C:/Users/duong/Desktop/Blue\ Pill/tkhtn_workspace/smart_door_lock/Libraries/misc/inc/misc.h \
  ../Core/Inc/main.h \
+ C:/Users/duong/Desktop/Blue\ Pill/tkhtn_workspace/smart_door_lock/Libraries/password_manager/inc/password_manager.h \
  C:/Users/duong/Desktop/Blue\ Pill/tkhtn_workspace/smart_door_lock/Libraries/keypad_driver/inc/keypad_driver.h \
  C:/Users/duong/Desktop/Blue\ Pill/tkhtn_workspace/smart_door_lock/Libraries/rfid_rc522_driver/inc/rfid_rc522_driver.h \
  C:/Users/duong/Desktop/Blue\ Pill/tkhtn_workspace/smart_door_lock/Libraries/lcd_1602_i2c_driver/inc/lcd_1602_i2c_driver.h
@@ -57,6 +58,7 @@ Core/Src/application.o: ../Core/Src/application.c \
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h:
 C:/Users/duong/Desktop/Blue\ Pill/tkhtn_workspace/smart_door_lock/Libraries/misc/inc/misc.h:
 ../Core/Inc/main.h:
+C:/Users/duong/Desktop/Blue\ Pill/tkhtn_workspace/smart_door_lock/Libraries/password_manager/inc/password_manager.h:
 C:/Users/duong/Desktop/Blue\ Pill/tkhtn_workspace/smart_door_lock/Libraries/keypad_driver/inc/keypad_driver.h:
 C:/Users/duong/Desktop/Blue\ Pill/tkhtn_workspace/smart_door_lock/Libraries/rfid_rc522_driver/inc/rfid_rc522_driver.h:
 C:/Users/duong/Desktop/Blue\ Pill/tkhtn_workspace/smart_door_lock/Libraries/lcd_1602_i2c_driver/inc/lcd_1602_i2c_driver.h:

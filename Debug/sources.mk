@@ -28,5 +28,6 @@ Drivers/STM32F1xx_HAL_Driver/Src \
 Libraries/keypad_driver/src \
 Libraries/lcd_1602_i2c_driver/src \
 Libraries/misc/src \
+Libraries/password_manager/src \
 Libraries/rfid_rc522_driver/src \
 
