@@ -1,11 +1,56 @@
-#include "lcd_1602_i2c_driver.h"
+#include "lcd_1602_driver.h"
 
 I2C_HandleTypeDef* ptr_lcd_1602_i2c_connect_mode;
 uint8_t backlight_state = BACKLIGHT_OFF;
 
+/////////////////////////////////////////////////////////////////////////////////////
+// Basic interface functions for communicating with the MFRC522
+/////////////////////////////////////////////////////////////////////////////////////
 static void lcd_1602_i2c_write_4bit(uint8_t write_data);
-static void lcd_1602_i2c_pulse_enable(uint8_t write_data);
+static void lcd_1602_pulse_enable(uint8_t write_data);
 
+static void lcd_1602_i2c_write_4bit(uint8_t write_data)
+{
+    uint8_t data = write_data | backlight_state;
+    HAL_I2C_Master_Transmit(ptr_lcd_1602_i2c_connect_mode, DEVICE_I2C_ADDRESS, (uint8_t*)&data, 1, 1);
+}
+
+static void lcd_1602_pulse_enable(uint8_t write_data)
+{
+    lcd_1602_i2c_write_4bit(write_data | LCD_ENABLE);
+    gettick_delay_ms(1);
+
+    lcd_1602_i2c_write_4bit(write_data & (~LCD_ENABLE));
+    gettick_delay_ms(1);
+}
+
+void lcd_1602_write_instruction(uint8_t lcd_instruction)
+{   
+    uint8_t high_nibble = (lcd_instruction & 0xF0) | WRITE_INSTRUCTION;
+    uint8_t low_nibble  = ((lcd_instruction << 4) & 0xF0) | WRITE_INSTRUCTION;
+
+    lcd_1602_i2c_write_4bit(high_nibble);
+    lcd_1602_pulse_enable(high_nibble);
+
+    lcd_1602_i2c_write_4bit(low_nibble);
+    lcd_1602_pulse_enable(low_nibble);
+}
+
+void lcd_1602_write_data(uint8_t lcd_data)
+{   
+    uint8_t high_nibble = (lcd_data & 0xF0) | WRITE_DATA;
+    uint8_t low_nibble  = ((lcd_data << 4) & 0xF0) | WRITE_DATA;
+
+    lcd_1602_i2c_write_4bit(high_nibble);
+    lcd_1602_pulse_enable(high_nibble);
+
+    lcd_1602_i2c_write_4bit(low_nibble);
+    lcd_1602_pulse_enable(low_nibble);
+}
+
+/////////////////////////////////////////////////////////////////////////////////////
+// Functions for init/setup the LCD 1602
+/////////////////////////////////////////////////////////////////////////////////////
 /**
  * The delay before initialization will not help in the long run.
  * 
@@ -36,7 +81,7 @@ static void lcd_1602_i2c_pulse_enable(uint8_t write_data);
  * and then it will be in 4-bit mode, but without proper font and lines configuration. From this point on, the command bytes can be sent as two nybbles as usual,
  * so first thing it needs is the command byte again as two nybbles, so it stays in 4-bit mode but this time it gets proper font and lines config. 
  */
-void lcd_1602_i2c_init(I2C_HandleTypeDef* connect_mode)
+void lcd_1602_init(I2C_HandleTypeDef* connect_mode)
 {
     ptr_lcd_1602_i2c_connect_mode = connect_mode;
     
@@ -49,124 +94,108 @@ void lcd_1602_i2c_init(I2C_HandleTypeDef* connect_mode)
     backlight_state = BACKLIGHT_OFF;
     //delay 4.5 ms sau khi gui lenh 0x30 lan 1
     lcd_1602_i2c_write_4bit(RESET_INIT_1);
-    lcd_1602_i2c_pulse_enable(RESET_INIT_1);
+    lcd_1602_pulse_enable(RESET_INIT_1);
     gettick_delay_ms(5);
     //delay 100us sau khi gui lenh 0x30 lan 2
     lcd_1602_i2c_write_4bit(RESET_INIT_1);
-    lcd_1602_i2c_pulse_enable(RESET_INIT_1);
+    lcd_1602_pulse_enable(RESET_INIT_1);
     gettick_delay_ms(5);
     //delay 100us sau khi gui lenh 0x30 lan 3
     lcd_1602_i2c_write_4bit(RESET_INIT_1);
-    lcd_1602_i2c_pulse_enable(RESET_INIT_1);
+    lcd_1602_pulse_enable(RESET_INIT_1);
     gettick_delay_ms(5);
     //delay 100us sau khi gui lenh 0x20
     lcd_1602_i2c_write_4bit(RESET_INIT_2);
-    lcd_1602_i2c_pulse_enable(RESET_INIT_2);
+    lcd_1602_pulse_enable(RESET_INIT_2);
     gettick_delay_ms(1);
 
     //khoi dong LCD
     //delay 100us sau khi gui lenh function set
-    lcd_1602_i2c_write_instruction(FUNCTION_SET);
+    lcd_1602_write_instruction(FUNCTION_SET);
     gettick_delay_ms(1);
     //delay 2 ms sau khi gui lenh clear display
-    lcd_1602_i2c_write_instruction(CLEAR_DISPLAY);
+    lcd_1602_write_instruction(CLEAR_DISPLAY);
     gettick_delay_ms(2);
     //delay 2ms sau khi gui lenh display control
-    lcd_1602_i2c_write_instruction(LCD_OFF);
+    lcd_1602_write_instruction(LCD_OFF);
     gettick_delay_ms(1);
     //delay 100us sau khi gui lenh entry mode set
-    lcd_1602_i2c_write_instruction(ENTRY_MODE_SET);
+    lcd_1602_write_instruction(ENTRY_MODE_SET);
     gettick_delay_ms(1);
 }
 
-void lcd_1602_i2c_write_instruction(uint8_t lcd_instruction)
-{   
-    uint8_t high_nibble = (lcd_instruction & 0xF0) | WRITE_INSTRUCTION;
-    uint8_t low_nibble  = ((lcd_instruction << 4) & 0xF0) | WRITE_INSTRUCTION;
-
-    lcd_1602_i2c_write_4bit(high_nibble);
-    lcd_1602_i2c_pulse_enable(high_nibble);
-
-    lcd_1602_i2c_write_4bit(low_nibble);
-    lcd_1602_i2c_pulse_enable(low_nibble);
-}
-
-void lcd_1602_i2c_write_data(uint8_t lcd_data)
-{   
-    uint8_t high_nibble = (lcd_data & 0xF0) | WRITE_DATA;
-    uint8_t low_nibble  = ((lcd_data << 4) & 0xF0) | WRITE_DATA;
-
-    lcd_1602_i2c_write_4bit(high_nibble);
-    lcd_1602_i2c_pulse_enable(high_nibble);
-
-    lcd_1602_i2c_write_4bit(low_nibble);
-    lcd_1602_i2c_pulse_enable(low_nibble);
-}
-
-void lcd_1602_i2c_print_string(const char string_array[])
-{
-    while (*string_array != END_OF_LINE)
-    {
-        lcd_1602_i2c_write_data(*string_array);
-        string_array++;
-    }       
-}
-
-static void lcd_1602_i2c_write_4bit(uint8_t write_data)
-{
-    uint8_t data = write_data | backlight_state;
-    HAL_I2C_Master_Transmit(ptr_lcd_1602_i2c_connect_mode, DEVICE_I2C_ADDRESS, (uint8_t*)&data, 1, 1);
-}
-
-static void lcd_1602_i2c_pulse_enable(uint8_t write_data)
-{
-    lcd_1602_i2c_write_4bit(write_data | LCD_ENABLE);
-    gettick_delay_ms(1);
-
-    lcd_1602_i2c_write_4bit(write_data & (~LCD_ENABLE));
-    gettick_delay_ms(1);
-}
-
-void lcd_1602_i2c_set_cursor_position(uint8_t vi_tri_cot, uint8_t vi_tri_hang)
+void lcd_1602_set_cursor_position(uint8_t vi_tri_cot, uint8_t vi_tri_hang)
 {
     uint8_t cursor_address_array[3] = {0x0, 0x80, 0xC0};
     uint8_t cursor_address = cursor_address_array[vi_tri_cot] + vi_tri_hang;
-    lcd_1602_i2c_write_instruction(cursor_address);
+    lcd_1602_write_instruction(cursor_address);
     gettick_delay_ms(1);
 }
 
-void lcd_1602_i2c_control_backlight(uint8_t backlight_data)
+void lcd_1602_control_backlight(uint8_t backlight_data)
 {
     backlight_state = backlight_data;
 }
 
-void control_lcd_and_backlight(bool control_state)
+void lcd_1602_control_lcd_and_backlight(bool control_state)
 {
-	lcd_1602_i2c_write_instruction(CLEAR_DISPLAY);
+	lcd_1602_write_instruction(CLEAR_DISPLAY);
 	gettick_delay_ms(2);
 
 	if (control_state == ENABLE)
 	{
-		lcd_1602_i2c_control_backlight(BACKLIGHT_ON);
-		lcd_1602_i2c_write_instruction(LCD_ON);
+		backlight_state = BACKLIGHT_ON;
+		lcd_1602_write_instruction(LCD_ON);
 		gettick_delay_ms(1);
 	}
 	else
 	{
-		lcd_1602_i2c_control_backlight(BACKLIGHT_OFF);
-		lcd_1602_i2c_write_instruction(LCD_OFF);
+		backlight_state = BACKLIGHT_OFF;
+		lcd_1602_write_instruction(LCD_OFF);
 		gettick_delay_ms(1);
 	}
 }
 
-void clear_display_and_print(const char string_array[], uint16_t delay_time_ms)
-{
-	lcd_1602_i2c_write_instruction(CLEAR_DISPLAY);
-	gettick_delay_ms(2);
-	lcd_1602_i2c_set_cursor_position(1, 0);
+/////////////////////////////////////////////////////////////////////////////////////
+// Application functions for the LCD 1602
+/////////////////////////////////////////////////////////////////////////////////////
 
-	lcd_1602_i2c_print_string(string_array);
+void lcd_1602_clear_display()
+{
+    lcd_1602_write_instruction(CLEAR_DISPLAY);
+	gettick_delay_ms(2);
+}
+
+void lcd_1602_wait_and_clear(uint16_t delay_time_ms)
+{
+    gettick_delay_ms(delay_time_ms);
+    lcd_1602_write_instruction(CLEAR_DISPLAY);
+	gettick_delay_ms(2);
+}
+
+void lcd_1602_print_string(const char string_array[], uint8_t vi_tri_cot, uint8_t vi_tri_hang)
+{
+    lcd_1602_set_cursor_position(vi_tri_cot, vi_tri_hang);
+
+    while (*string_array != END_OF_LINE)
+    {
+        lcd_1602_write_data(*string_array);
+        string_array++;
+    }       
+}
+
+void lcd_1602_print_full_screen(const char string_array[], uint8_t vi_tri_cot, uint8_t vi_tri_hang, uint16_t delay_time_ms)
+{
+	lcd_1602_write_instruction(CLEAR_DISPLAY);
+	gettick_delay_ms(2);
+
+	lcd_1602_print_string(string_array, vi_tri_cot, vi_tri_hang);
 
 	if (delay_time_ms != 0)
-		gettick_delay_ms(delay_time_ms);
+    {
+        gettick_delay_ms(delay_time_ms);
+
+        lcd_1602_write_instruction(CLEAR_DISPLAY);
+	    gettick_delay_ms(2);
+    }
 }
