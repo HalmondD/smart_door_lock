@@ -1,5 +1,6 @@
-Core/Src/app_driver.o: ../Core/Src/app_driver.c ../Core/Inc/app_driver.h \
- ../Core/Inc/main.h ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
+Core/Src/application.o: ../Core/Src/application.c \
+ ../Core/Inc/application.h ../Core/Inc/main.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h \
@@ -28,7 +29,7 @@ Core/Src/app_driver.o: ../Core/Src/app_driver.c ../Core/Inc/app_driver.h \
  C:/Users/duong/Desktop/Blue\ Pill/tkhtn_workspace/smart_door_lock/Libraries/keypad_driver/inc/keypad_driver.h \
  C:/Users/duong/Desktop/Blue\ Pill/tkhtn_workspace/smart_door_lock/Libraries/rfid_rc522_driver/inc/rfid_rc522_driver.h \
  C:/Users/duong/Desktop/Blue\ Pill/tkhtn_workspace/smart_door_lock/Libraries/lcd_1602_i2c_driver/inc/lcd_1602_i2c_driver.h
-../Core/Inc/app_driver.h:
+../Core/Inc/application.h:
 ../Core/Inc/main.h:
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:
 ../Core/Inc/stm32f1xx_hal_conf.h:

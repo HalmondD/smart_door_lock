@@ -1,0 +1,4 @@
+../Core/Src/application.c:11:6:app_loop	24	static
+../Core/Src/application.c:33:13:check_uid_data	24	static
+../Core/Src/application.c:56:13:input_password	24	static
+../Core/Src/application.c:124:13:delete_password	32	static
