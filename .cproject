@@ -47,10 +47,10 @@
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Device/ST/STM32F1xx/Include"/>
 									<listOptionValue builtIn="false" value="../Drivers/CMSIS/Include"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/smart_door_lock/Libraries/keypad_driver/inc}&quot;"/>
-									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/smart_door_lock/Libraries/lcd_1602_i2c_driver/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/smart_door_lock/Libraries/rfid_rc522_driver/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/smart_door_lock/Libraries/misc/inc}&quot;"/>
 									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/smart_door_lock/Libraries/password_manager/inc}&quot;"/>
+									<listOptionValue builtIn="false" value="&quot;${workspace_loc:/smart_door_lock/Libraries/lcd_1602_driver/inc}&quot;"/>
 								</option>
 								<inputType id="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c.2146835524" superClass="com.st.stm32cube.ide.mcu.gnu.managedbuild.tool.c.compiler.input.c"/>
 							</tool>

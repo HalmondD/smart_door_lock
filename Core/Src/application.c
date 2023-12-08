@@ -7,7 +7,7 @@ void app_loop(SPI_HandleTypeDef* hspi2, I2C_HandleTypeDef* hi2c1)
 	struct UID input_uid;
 	rfid_rc522_init(hspi2);
 
-	lcd_1602_i2c_init(hi2c1);
+	lcd_1602_init(hi2c1);
 
 	uint8_t master_uid_data_array[4] = {0x00, 0x47, 0xE6, 0x1E};
 	struct password master_uid;
@@ -37,13 +37,13 @@ void app_loop(SPI_HandleTypeDef* hspi2, I2C_HandleTypeDef* hi2c1)
 
 		if (check_password(&master_uid, &checked_uid) == false)
 		{
-			control_lcd_and_backlight(ENABLE);
+			lcd_1602_control_lcd_and_backlight(ENABLE);
 
-			lcd_1602_i2c_set_cursor_position(1, 0);
-			lcd_1602_i2c_print_string("Wrong Card!");
-			gettick_delay_ms(2000);
+			//lcd_1602_i2c_set_cursor_position(1, 0);
+			lcd_1602_print_string("Wrong Card!", 1, 0);
+			lcd_1602_wait_and_clear(2000);
 
-			control_lcd_and_backlight(DISABLE);
+			lcd_1602_control_lcd_and_backlight(DISABLE);
 
 			break;
 		}
@@ -60,12 +60,12 @@ static void input_password_t(struct password* master_password, struct password* 
 
 	do
 	{
-		control_lcd_and_backlight(ENABLE);
+		lcd_1602_control_lcd_and_backlight(ENABLE);
 
-		lcd_1602_i2c_set_cursor_position(1, 0);
-		lcd_1602_i2c_print_string("Input Password:");
+		//lcd_1602_i2c_set_cursor_position(1, 0);
+		lcd_1602_print_string("Input Password:", 1, 0);
 
-		lcd_1602_i2c_set_cursor_position(2, 0);
+		lcd_1602_set_cursor_position(2, 0);
 
 		while ((gia_tri_phim_nhan = keypad_4x4_return_gia_tri_phim_nhan()) != '*')
 		{
@@ -75,23 +75,24 @@ static void input_password_t(struct password* master_password, struct password* 
 			{
 				delete_password(input_password);
 
-				clear_display_and_print("Too Long!", 2000);
-				clear_display_and_print("Input Password:", 0);
-				lcd_1602_i2c_set_cursor_position(2, 0);
+				lcd_1602_print_full_screen("Too Long!", 1, 0, 2000);
+				lcd_1602_print_string("Input Password:", 1, 0);
+				lcd_1602_set_cursor_position(2, 0);
 
 				continue;
 			}
 
 			input_password->data_array[input_password->count - 1] = gia_tri_phim_nhan;
 
-			lcd_1602_i2c_write_data('*');
+			lcd_1602_write_data('*');
 
 			if (gia_tri_phim_nhan == '#')
 			{
 				delete_password(input_password);
 
-				clear_display_and_print("Input Password:", 0);
-				lcd_1602_i2c_set_cursor_position(2, 0);
+				lcd_1602_clear_display();
+				lcd_1602_print_string("Input Password:", 1, 0);
+				lcd_1602_set_cursor_position(2, 0);
 			}
 		}
 
@@ -100,7 +101,7 @@ static void input_password_t(struct password* master_password, struct password* 
 			delete_password(input_password);
 			is_password_right = false;
 
-			clear_display_and_print("Wrong Password!", 2000);
+			lcd_1602_print_full_screen("Wrong Password!", 1, 0, 2000);
 
 			continue;
 		}
@@ -110,8 +111,8 @@ static void input_password_t(struct password* master_password, struct password* 
 	while (is_password_right == false);
 
 	delete_password(input_password);
-	clear_display_and_print("Door Open", 2000);
-	control_lcd_and_backlight(DISABLE);
+	lcd_1602_print_full_screen("Door Open", 1, 0, 2000);
+	lcd_1602_control_lcd_and_backlight(DISABLE);
 }
 
 //static void welcome_lcd(struct UID* input_uid);

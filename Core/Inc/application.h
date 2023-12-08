@@ -10,7 +10,7 @@
 #include "password_manager.h"
 #include "keypad_driver.h"
 #include "rfid_rc522_driver.h"
-#include "lcd_1602_i2c_driver.h"
+#include "lcd_1602_driver.h"
 
 #define MASTER_PASSWORD_COUNT       4
 #define MAX_INPUT_PASSWORD_COUNT    16

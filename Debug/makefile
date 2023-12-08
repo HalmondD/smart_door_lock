@@ -12,7 +12,7 @@ RM := rm -rf
 -include Libraries/rfid_rc522_driver/src/subdir.mk
 -include Libraries/password_manager/src/subdir.mk
 -include Libraries/misc/src/subdir.mk
--include Libraries/lcd_1602_i2c_driver/src/subdir.mk
+-include Libraries/lcd_1602_driver/src/subdir.mk
 -include Libraries/keypad_driver/src/subdir.mk
 -include Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk

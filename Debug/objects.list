@@ -22,7 +22,7 @@
 "./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.o"
 "./Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.o"
 "./Libraries/keypad_driver/src/keypad_driver.o"
-"./Libraries/lcd_1602_i2c_driver/src/lcd_1602_i2c_driver.o"
+"./Libraries/lcd_1602_driver/src/lcd_1602_driver.o"
 "./Libraries/misc/src/misc.o"
 "./Libraries/password_manager/src/password_manager.o"
 "./Libraries/rfid_rc522_driver/src/rfid_rc522_driver.o"

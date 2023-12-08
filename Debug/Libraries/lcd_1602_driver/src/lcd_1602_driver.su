@@ -1,0 +1,12 @@
+../Libraries/lcd_1602_driver/src/lcd_1602_driver.c:12:13:lcd_1602_i2c_write_4bit	32	static
+../Libraries/lcd_1602_driver/src/lcd_1602_driver.c:18:13:lcd_1602_pulse_enable	16	static
+../Libraries/lcd_1602_driver/src/lcd_1602_driver.c:27:6:lcd_1602_write_instruction	24	static
+../Libraries/lcd_1602_driver/src/lcd_1602_driver.c:39:6:lcd_1602_write_data	24	static
+../Libraries/lcd_1602_driver/src/lcd_1602_driver.c:84:6:lcd_1602_init	16	static
+../Libraries/lcd_1602_driver/src/lcd_1602_driver.c:127:6:lcd_1602_set_cursor_position	24	static
+../Libraries/lcd_1602_driver/src/lcd_1602_driver.c:135:6:lcd_1602_control_backlight	16	static
+../Libraries/lcd_1602_driver/src/lcd_1602_driver.c:140:6:lcd_1602_control_lcd_and_backlight	16	static
+../Libraries/lcd_1602_driver/src/lcd_1602_driver.c:163:6:lcd_1602_clear_display	8	static
+../Libraries/lcd_1602_driver/src/lcd_1602_driver.c:169:6:lcd_1602_wait_and_clear	16	static
+../Libraries/lcd_1602_driver/src/lcd_1602_driver.c:176:6:lcd_1602_print_string	16	static
+../Libraries/lcd_1602_driver/src/lcd_1602_driver.c:187:6:lcd_1602_print_full_screen	16	static
