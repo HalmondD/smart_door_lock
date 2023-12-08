@@ -8,9 +8,9 @@
 
 struct password
 {
-    uint8_t byte_count;
+    //uint8_t byte_count;
     uint8_t *data_array;
-    uint8_t index;
+    uint8_t count;
 };
 
 bool check_password(struct password* master_password, struct password* input_password);

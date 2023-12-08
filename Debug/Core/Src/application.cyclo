@@ -1,3 +1,2 @@
-../Core/Src/application.c:11:6:app_loop	3
-../Core/Src/application.c:91:13:input_password_t	7
-../Core/Src/application.c:159:13:delete_password_t	2
+../Core/Src/application.c:8:6:app_loop	3
+../Core/Src/application.c:59:13:input_password_t	6
